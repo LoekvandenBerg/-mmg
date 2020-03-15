@@ -23,6 +23,10 @@ public class GameEvents : MonoBehaviour
     public static Action<Building> OnTrainingCompleted;
     public static Action<Troop> OnTroopUnlocked;
 
+    public static Action<Hunt> OnHuntStarted;
+    public static Action<Technology> OnHuntCompleted;
+    public static Action<Hunt> OnHuntUnlocked;
+
     // TECH EVENTS
 
     public static void TechResearchStarted(Technology tech)
@@ -68,10 +72,20 @@ public class GameEvents : MonoBehaviour
         OnTroopUnlocked?.Invoke(troop);
     }
 
+    // HUNT EVENTS
 
-    public static void BuildingCompletedForTroop(Building building)
+
+    public static void HuntStarted(Hunt hunt)
     {
-        OnBuildingCompleteTroop?.Invoke(building);
+        OnHuntStarted?.Invoke(hunt);
+    }
+    public static void HuntCompleted(Technology tech)
+    {
+        OnHuntCompleted?.Invoke(tech);
+    }
+    public static void HuntUnlocked(Hunt hunt)
+    {
+        OnHuntUnlocked?.Invoke(hunt);
     }
 
 

@@ -24,7 +24,6 @@ public class Troop
     public List<ResourceAmount> resourceCosts;
     public float trainedTime;
     public float requiredTrainTime;
-    private int amountFcalled;
 
     public Troop()
     {
@@ -65,7 +64,6 @@ public class Troop
     //Fired when trainingcompleted 
     void CheckTrainingRequirements(Building completedBuilding)
     {
-        amountFcalled++;
         if (availabilityState == AvailabilityState.Locked)
         {
             if (completedBuilding != null && !troopRequirement.completed && troopRequirement.building.buildingName == completedBuilding.buildingName)

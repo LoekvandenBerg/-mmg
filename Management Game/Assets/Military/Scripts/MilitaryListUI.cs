@@ -7,10 +7,10 @@ public class MilitaryListUI : MonoBehaviour
     [SerializeField]
     private Transform militaryPanel = null;
     [SerializeField]
-    private MilitaryHolderUI militaryHolderPrefab = null;
+    private MilitaryNodeUI militaryHolderPrefab = null;
     private List<Troop> troops = new List<Troop>();
     [HideInInspector]
-    public List<MilitaryHolderUI> troopHolders = new List<MilitaryHolderUI>();
+    public List<MilitaryNodeUI> troopHolders = new List<MilitaryNodeUI>();
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class MilitaryListUI : MonoBehaviour
     {
         for (int i = 0; i < troops.Count; i++)
         {
-            MilitaryHolderUI militaryHolderUIObj = Instantiate(militaryHolderPrefab, militaryPanel);
+            MilitaryNodeUI militaryHolderUIObj = Instantiate(militaryHolderPrefab, militaryPanel);
             troopHolders.Add(militaryHolderUIObj);
             militaryHolderUIObj.Initialize(troops[i]);
         }

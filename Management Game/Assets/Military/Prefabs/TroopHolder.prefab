@@ -164,7 +164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4793280789803170023}
-  - component: {fileID: 1712725272}
+  - component: {fileID: 6234320672279952955}
   m_Layer: 5
   m_Name: TroopHolder
   m_TagString: Untagged
@@ -195,7 +195,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 971.8, y: 397.3}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1712725272
+--- !u!114 &6234320672279952955
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4793280789803170016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc277693235736442850385ac3d5cdd6, type: 3}
+  m_Script: {fileID: 11500000, guid: 25db9b5036f5a244b9c9bbefa5520e27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   troop:
@@ -230,7 +230,6 @@ MonoBehaviour:
   trainButton: {fileID: 4793280790803830190}
   troopNameText: {fileID: 4793280790266512444}
   haveTrainedAmountText: {fileID: 4793280791343256289}
-  troopAmountInputfield: {fileID: 4793280790205826681}
 --- !u!1 &4793280789991729377
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,7 +879,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1712725272}
+      - m_Target: {fileID: 0}
         m_MethodName: OnTrainButton
         m_Mode: 2
         m_Arguments:

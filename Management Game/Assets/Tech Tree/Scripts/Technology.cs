@@ -98,7 +98,7 @@ public class Technology
         List<ResourceAmount> resourceAmounts = new List<ResourceAmount>();
         for (int i = 0; i < resourceCosts.Count; i++)
         {
-            ResourceAmount currentAmount = Resources.Instance.GetResourceAmount(resourceCosts[i].resourceType);
+            ResourceAmount currentAmount = Resource.Instance.GetResourceAmount(resourceCosts[i].resourceType);
             ResourceAmount cost = resourceCosts[i];
             if(currentAmount.resourceAmount >= cost.resourceAmount)
             {

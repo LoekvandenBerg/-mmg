@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5124940831183965261}
   - component: {fileID: 5124940831183965258}
   - component: {fileID: 1283815382501813787}
-  - component: {fileID: 1283815382501813780}
+  - component: {fileID: 1517678593}
   m_Layer: 0
   m_Name: Database
   m_TagString: Untagged
@@ -184,7 +184,7 @@ MonoBehaviour:
       completed: 0
     buildingTime: 0
     requiredBuildingTime: 2
---- !u!114 &1283815382501813780
+--- !u!114 &1517678593
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,15 +193,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 5124940831183965259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71dadef25e3ddc5469a19e6c42900325, type: 3}
+  m_Script: {fileID: 11500000, guid: 15acbf359309fb84d9085628a9a408fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resourceAmounts:
-  - resourceType: 0
-    resourceAmount: 3228
-  - resourceType: 2
-    resourceAmount: 26
-  - resourceType: 3
-    resourceAmount: 0
-  - resourceType: 4
-    resourceAmount: 600
+  troops:
+  - troopType: 0
+    availabilityState: 0
+    troopName: Footmen
+    troopRequirement:
+      building:
+        buildingName: Barracks
+        buildingState: 0
+        initProductionAmount: 0
+        level: 0
+        productionModifiers: []
+        resourceCosts:
+        - resourceType: 4
+          resourceAmount: 5
+        buildingRequirements: []
+        buildingTime: 0
+        requiredBuildingTime: 0
+      completed: 0
+    resourceCosts:
+    - resourceType: 4
+      resourceAmount: 5
+    trainedTime: 0
+    requiredTrainTime: 0

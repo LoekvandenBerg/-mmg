@@ -29,10 +29,10 @@ public class GameManager : MonoBehaviour
 
     void GainResources()
     {
-        Resources.Instance.GetResourceAmount(Resources.ResourceTypes.Gold).resourceAmount += (1 + goldToGet);
-        Resources.Instance.GetResourceAmount(Resources.ResourceTypes.Water).resourceAmount += (2 + waterToGet);
-        Resources.Instance.GetResourceAmount(Resources.ResourceTypes.Food).resourceAmount += (3 + foodToGet);
-        Resources.Instance.GetResourceAmount(Resources.ResourceTypes.Wood).resourceAmount += (1 + woodToGet);
+        Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount += (1 + goldToGet);
+        Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Water).resourceAmount += (2 + waterToGet);
+        Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Food).resourceAmount += (3 + foodToGet);
+        Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Wood).resourceAmount += (1 + woodToGet);
     }
 
     void CalculateResourceTechModifiers(Technology tech)
