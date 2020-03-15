@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5124940831183965259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5124940831183965261}
+  - component: {fileID: 5124940831183965258}
+  - component: {fileID: 1283815382501813787}
+  - component: {fileID: 1283815382501813780}
+  m_Layer: 0
+  m_Name: Database
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5124940831183965261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5124940831183965259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5124940831183965258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5124940831183965259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5425c831c88c44a4eb49438f8894619c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  techGroups:
+  - technologies:
+    - techName: Curiosity
+      availabilityState: 1
+      techDescription: You want more technologies
+      techImage: {fileID: 0}
+      techRequirements: []
+      resourceCosts:
+      - resourceType: 0
+        resourceAmount: 5
+      techModifiers:
+      - modifierType: 0
+        amount: 2
+      researchedTurns: 0
+      requiredResearchTurns: 2
+      researchedTime: 51.69998
+      requiredResearchTime: 2
+      techUIColor: {r: 0.03938234, g: 0.5566038, b: 0.08553712, a: 1}
+  - technologies:
+    - techName: Community
+      availabilityState: 0
+      techDescription: Live together
+      techImage: {fileID: 0}
+      techRequirements:
+      - techName: Curiosity
+        completed: 0
+      resourceCosts:
+      - resourceType: 0
+        resourceAmount: 10
+      techModifiers:
+      - modifierType: 0
+        amount: 2
+      researchedTurns: 0
+      requiredResearchTurns: 2
+      researchedTime: 0
+      requiredResearchTime: 2
+      techUIColor: {r: 0.03938234, g: 0.5566038, b: 0.08553712, a: 1}
+    - techName: Footmen
+      availabilityState: 0
+      techDescription: Military
+      techImage: {fileID: 0}
+      techRequirements:
+      - techName: Community
+        completed: 0
+      resourceCosts:
+      - resourceType: 0
+        resourceAmount: 10
+      techModifiers:
+      - modifierType: 0
+        amount: 2
+      researchedTurns: 0
+      requiredResearchTurns: 2
+      researchedTime: 0
+      requiredResearchTime: 2
+      techUIColor: {r: 0.03938234, g: 0.5566038, b: 0.08553712, a: 1}
+--- !u!114 &1283815382501813787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5124940831183965259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f3fe2aa272a8a4c8169fe98e321c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildings:
+  - buildingName: Carpenter
+    buildingState: 1
+    initProductionAmount: 2
+    level: 0
+    productionModifiers:
+    - modifierType: 0
+      amount: 0
+    resourceCosts:
+    - resourceType: 0
+      resourceAmount: 10
+    buildingRequirements: []
+    buildingTime: 0
+    requiredBuildingTime: 5
+  - buildingName: Mint
+    buildingState: 1
+    initProductionAmount: 2
+    level: 0
+    productionModifiers:
+    - modifierType: 3
+      amount: 0
+    resourceCosts:
+    - resourceType: 0
+      resourceAmount: 10
+    buildingRequirements: []
+    buildingTime: 0
+    requiredBuildingTime: 5
+  - buildingName: Well
+    buildingState: 1
+    initProductionAmount: 3
+    level: 0
+    productionModifiers:
+    - modifierType: 3
+      amount: 0
+    resourceCosts:
+    - resourceType: 0
+      resourceAmount: 5
+    buildingRequirements: []
+    buildingTime: 0
+    requiredBuildingTime: 5
+  - buildingName: Farm
+    buildingState: 1
+    initProductionAmount: 5
+    level: 0
+    productionModifiers:
+    - modifierType: 1
+      amount: 0
+    resourceCosts:
+    - resourceType: 0
+      resourceAmount: 5
+    buildingRequirements:
+    - buildingName: Mint
+      level: 1
+      completed: 1
+    buildingTime: 0
+    requiredBuildingTime: 5
+  - buildingName: Barracks
+    buildingState: 0
+    initProductionAmount: 0
+    level: 0
+    productionModifiers:
+    - modifierType: 1
+      amount: 0
+    resourceCosts:
+    - resourceType: 0
+      resourceAmount: 5
+    buildingRequirements:
+    - buildingName: Mint
+      level: 1
+      completed: 0
+    buildingTime: 0
+    requiredBuildingTime: 2
+--- !u!114 &1283815382501813780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5124940831183965259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dadef25e3ddc5469a19e6c42900325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourceAmounts:
+  - resourceType: 0
+    resourceAmount: 3228
+  - resourceType: 2
+    resourceAmount: 26
+  - resourceType: 3
+    resourceAmount: 0
+  - resourceType: 4
+    resourceAmount: 600

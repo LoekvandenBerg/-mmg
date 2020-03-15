@@ -1,0 +1,3931 @@
+fileFormatVersion: 2
+guid: 66d4bfd9be89af94bb233cb1ff297d61
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6345144937465913848
+    second: alekzander-zagorulko-as-herb-055_0
+  - first:
+      213: -500275622337178330
+    second: alekzander-zagorulko-as-herb-055_1
+  - first:
+      213: 2534592186432113626
+    second: alekzander-zagorulko-as-herb-055_2
+  - first:
+      213: 4402179924457381579
+    second: alekzander-zagorulko-as-herb-055_3
+  - first:
+      213: -4209324361545065808
+    second: alekzander-zagorulko-as-herb-055_4
+  - first:
+      213: -3889694816918988963
+    second: alekzander-zagorulko-as-herb-055_5
+  - first:
+      213: 3023380156704146381
+    second: alekzander-zagorulko-as-herb-055_6
+  - first:
+      213: -7188257956407656678
+    second: alekzander-zagorulko-as-herb-055_7
+  - first:
+      213: 8992000917099933365
+    second: alekzander-zagorulko-as-herb-055_8
+  - first:
+      213: 9003280481863021396
+    second: alekzander-zagorulko-as-herb-055_9
+  - first:
+      213: 3262792705610143520
+    second: alekzander-zagorulko-as-herb-055_10
+  - first:
+      213: 1719981786530377705
+    second: alekzander-zagorulko-as-herb-055_11
+  - first:
+      213: 6710016930268934974
+    second: alekzander-zagorulko-as-herb-055_12
+  - first:
+      213: 2450839668438472850
+    second: alekzander-zagorulko-as-herb-055_13
+  - first:
+      213: 6845189715828844283
+    second: alekzander-zagorulko-as-herb-055_14
+  - first:
+      213: 8398716229719718350
+    second: alekzander-zagorulko-as-herb-055_15
+  - first:
+      213: 8977914409201151506
+    second: alekzander-zagorulko-as-herb-055_16
+  - first:
+      213: -3329419932722570674
+    second: alekzander-zagorulko-as-herb-055_17
+  - first:
+      213: 8967174439850194931
+    second: alekzander-zagorulko-as-herb-055_18
+  - first:
+      213: 6940840249820207097
+    second: alekzander-zagorulko-as-herb-055_19
+  - first:
+      213: -2752296741940854378
+    second: alekzander-zagorulko-as-herb-055_20
+  - first:
+      213: 5292141820205136866
+    second: alekzander-zagorulko-as-herb-055_21
+  - first:
+      213: -9026067055889715304
+    second: alekzander-zagorulko-as-herb-055_22
+  - first:
+      213: -7069397411512111817
+    second: alekzander-zagorulko-as-herb-055_23
+  - first:
+      213: -2377824028416785858
+    second: alekzander-zagorulko-as-herb-055_24
+  - first:
+      213: -2752036985182395818
+    second: alekzander-zagorulko-as-herb-055_25
+  - first:
+      213: 7427921761956295288
+    second: alekzander-zagorulko-as-herb-055_26
+  - first:
+      213: -1768959899090657420
+    second: alekzander-zagorulko-as-herb-055_27
+  - first:
+      213: 7703239495567217396
+    second: alekzander-zagorulko-as-herb-055_28
+  - first:
+      213: -1443749703003226553
+    second: alekzander-zagorulko-as-herb-055_29
+  - first:
+      213: 258419107722577650
+    second: alekzander-zagorulko-as-herb-055_30
+  - first:
+      213: 7588081625633947879
+    second: alekzander-zagorulko-as-herb-055_31
+  - first:
+      213: -3888057107469765216
+    second: alekzander-zagorulko-as-herb-055_32
+  - first:
+      213: 3879994784328695121
+    second: alekzander-zagorulko-as-herb-055_33
+  - first:
+      213: 4706218629773287165
+    second: alekzander-zagorulko-as-herb-055_34
+  - first:
+      213: 5706305878696328624
+    second: alekzander-zagorulko-as-herb-055_35
+  - first:
+      213: -7616002288427149732
+    second: alekzander-zagorulko-as-herb-055_36
+  - first:
+      213: 1251106374481586650
+    second: alekzander-zagorulko-as-herb-055_37
+  - first:
+      213: -360257316417166476
+    second: alekzander-zagorulko-as-herb-055_38
+  - first:
+      213: 2673217299425252852
+    second: alekzander-zagorulko-as-herb-055_39
+  - first:
+      213: 1704848681950658494
+    second: alekzander-zagorulko-as-herb-055_40
+  - first:
+      213: -5712003443227795849
+    second: alekzander-zagorulko-as-herb-055_41
+  - first:
+      213: -3015910903101557730
+    second: alekzander-zagorulko-as-herb-055_42
+  - first:
+      213: 6760595325590945589
+    second: alekzander-zagorulko-as-herb-055_43
+  - first:
+      213: -2746483728197849698
+    second: alekzander-zagorulko-as-herb-055_44
+  - first:
+      213: 1627712588473753674
+    second: alekzander-zagorulko-as-herb-055_45
+  - first:
+      213: -8119175666434403798
+    second: alekzander-zagorulko-as-herb-055_46
+  - first:
+      213: -7413666224017045589
+    second: alekzander-zagorulko-as-herb-055_47
+  - first:
+      213: 7877886224938666320
+    second: alekzander-zagorulko-as-herb-055_48
+  - first:
+      213: 1631642135299632647
+    second: alekzander-zagorulko-as-herb-055_49
+  - first:
+      213: 7169278809828357735
+    second: alekzander-zagorulko-as-herb-055_50
+  - first:
+      213: 6132360341227642428
+    second: alekzander-zagorulko-as-herb-055_51
+  - first:
+      213: -874812528810758282
+    second: alekzander-zagorulko-as-herb-055_52
+  - first:
+      213: 7321522590994264420
+    second: alekzander-zagorulko-as-herb-055_53
+  - first:
+      213: -5493172208796977776
+    second: alekzander-zagorulko-as-herb-055_54
+  - first:
+      213: -8413306727506299954
+    second: alekzander-zagorulko-as-herb-055_55
+  - first:
+      213: 3912571392649064461
+    second: alekzander-zagorulko-as-herb-055_56
+  - first:
+      213: -8390738737328347627
+    second: alekzander-zagorulko-as-herb-055_57
+  - first:
+      213: -4770088284111514511
+    second: alekzander-zagorulko-as-herb-055_58
+  - first:
+      213: -7759671440610580652
+    second: alekzander-zagorulko-as-herb-055_59
+  - first:
+      213: 1000377676794844415
+    second: alekzander-zagorulko-as-herb-055_60
+  - first:
+      213: 5594526657147115330
+    second: alekzander-zagorulko-as-herb-055_61
+  - first:
+      213: -2248095731858118720
+    second: alekzander-zagorulko-as-herb-055_62
+  - first:
+      213: -9037134248624549269
+    second: alekzander-zagorulko-as-herb-055_63
+  - first:
+      213: 8882185120443709364
+    second: alekzander-zagorulko-as-herb-055_64
+  - first:
+      213: -8889018624202858936
+    second: alekzander-zagorulko-as-herb-055_65
+  - first:
+      213: 8928072316794060846
+    second: alekzander-zagorulko-as-herb-055_66
+  - first:
+      213: -314189006104582946
+    second: alekzander-zagorulko-as-herb-055_67
+  - first:
+      213: -7425545888473917100
+    second: alekzander-zagorulko-as-herb-055_68
+  - first:
+      213: -3895826945482220252
+    second: alekzander-zagorulko-as-herb-055_69
+  - first:
+      213: -8542559423575867084
+    second: alekzander-zagorulko-as-herb-055_70
+  - first:
+      213: 5211575458703269123
+    second: alekzander-zagorulko-as-herb-055_71
+  - first:
+      213: 3668956292934121418
+    second: alekzander-zagorulko-as-herb-055_72
+  - first:
+      213: 7549445531880773802
+    second: alekzander-zagorulko-as-herb-055_73
+  - first:
+      213: 119851511957887826
+    second: alekzander-zagorulko-as-herb-055_74
+  - first:
+      213: 7184227852114084402
+    second: alekzander-zagorulko-as-herb-055_75
+  - first:
+      213: -8340230468066692771
+    second: alekzander-zagorulko-as-herb-055_76
+  - first:
+      213: -7670463883954293120
+    second: alekzander-zagorulko-as-herb-055_77
+  - first:
+      213: -1710671081163484080
+    second: alekzander-zagorulko-as-herb-055_78
+  - first:
+      213: 7755417823581018505
+    second: alekzander-zagorulko-as-herb-055_79
+  - first:
+      213: 6263293163775230349
+    second: alekzander-zagorulko-as-herb-055_80
+  - first:
+      213: -5777856666005767951
+    second: alekzander-zagorulko-as-herb-055_81
+  - first:
+      213: 7328341134049086370
+    second: alekzander-zagorulko-as-herb-055_82
+  - first:
+      213: -1360027127464285577
+    second: alekzander-zagorulko-as-herb-055_83
+  - first:
+      213: 1068248341427787422
+    second: alekzander-zagorulko-as-herb-055_84
+  - first:
+      213: 5121722559073757247
+    second: alekzander-zagorulko-as-herb-055_85
+  - first:
+      213: -5950274134788036870
+    second: alekzander-zagorulko-as-herb-055_86
+  - first:
+      213: 4802898114603954171
+    second: alekzander-zagorulko-as-herb-055_87
+  - first:
+      213: -4930593890408636206
+    second: alekzander-zagorulko-as-herb-055_88
+  - first:
+      213: 7382987512706771430
+    second: alekzander-zagorulko-as-herb-055_89
+  - first:
+      213: -4753189995815117144
+    second: alekzander-zagorulko-as-herb-055_90
+  - first:
+      213: 8189311360410874130
+    second: alekzander-zagorulko-as-herb-055_91
+  - first:
+      213: -8428564038935126142
+    second: alekzander-zagorulko-as-herb-055_92
+  - first:
+      213: -8066707174755306364
+    second: alekzander-zagorulko-as-herb-055_93
+  - first:
+      213: 2443489209302182455
+    second: alekzander-zagorulko-as-herb-055_94
+  - first:
+      213: -326604888606148909
+    second: alekzander-zagorulko-as-herb-055_95
+  - first:
+      213: 7289926136145324855
+    second: alekzander-zagorulko-as-herb-055_96
+  - first:
+      213: -6688010131641142505
+    second: alekzander-zagorulko-as-herb-055_97
+  - first:
+      213: -5393120644678153438
+    second: alekzander-zagorulko-as-herb-055_98
+  - first:
+      213: -6203033577130195560
+    second: alekzander-zagorulko-as-herb-055_99
+  - first:
+      213: 5271771514538848570
+    second: alekzander-zagorulko-as-herb-055_100
+  - first:
+      213: 1928707640297290345
+    second: alekzander-zagorulko-as-herb-055_101
+  - first:
+      213: 3841333596652028564
+    second: alekzander-zagorulko-as-herb-055_102
+  - first:
+      213: 9199222701259923692
+    second: alekzander-zagorulko-as-herb-055_103
+  - first:
+      213: -6886616856053237496
+    second: alekzander-zagorulko-as-herb-055_104
+  - first:
+      213: 561953910687436862
+    second: alekzander-zagorulko-as-herb-055_105
+  - first:
+      213: -4435697556253735167
+    second: alekzander-zagorulko-as-herb-055_106
+  - first:
+      213: 4440211475181176920
+    second: alekzander-zagorulko-as-herb-055_107
+  - first:
+      213: 9056931586038104475
+    second: alekzander-zagorulko-as-herb-055_108
+  - first:
+      213: 4325690105071636308
+    second: alekzander-zagorulko-as-herb-055_109
+  - first:
+      213: -1989472519445832621
+    second: alekzander-zagorulko-as-herb-055_110
+  - first:
+      213: -8811365426702108301
+    second: alekzander-zagorulko-as-herb-055_111
+  - first:
+      213: 1285518724200573192
+    second: alekzander-zagorulko-as-herb-055_112
+  - first:
+      213: -781836533164886893
+    second: alekzander-zagorulko-as-herb-055_113
+  - first:
+      213: -1022483728961949138
+    second: alekzander-zagorulko-as-herb-055_114
+  - first:
+      213: -931921853143631910
+    second: alekzander-zagorulko-as-herb-055_115
+  - first:
+      213: 5059617980494390699
+    second: alekzander-zagorulko-as-herb-055_116
+  - first:
+      213: -5855599211176574126
+    second: alekzander-zagorulko-as-herb-055_117
+  - first:
+      213: -6443600879419674730
+    second: alekzander-zagorulko-as-herb-055_118
+  - first:
+      213: 431565684491018041
+    second: alekzander-zagorulko-as-herb-055_119
+  - first:
+      213: 6616096684193542394
+    second: alekzander-zagorulko-as-herb-055_120
+  - first:
+      213: -9005457326598821769
+    second: alekzander-zagorulko-as-herb-055_121
+  - first:
+      213: -7635051193096559418
+    second: alekzander-zagorulko-as-herb-055_122
+  - first:
+      213: -3231615110594438675
+    second: alekzander-zagorulko-as-herb-055_123
+  - first:
+      213: 2036992581331461076
+    second: alekzander-zagorulko-as-herb-055_124
+  - first:
+      213: 3407159186515207227
+    second: alekzander-zagorulko-as-herb-055_125
+  - first:
+      213: 3125981602967070999
+    second: alekzander-zagorulko-as-herb-055_126
+  - first:
+      213: 7616077659512553135
+    second: alekzander-zagorulko-as-herb-055_127
+  - first:
+      213: -6141449706549273580
+    second: alekzander-zagorulko-as-herb-055_128
+  - first:
+      213: -6666374992312926508
+    second: alekzander-zagorulko-as-herb-055_129
+  - first:
+      213: -8477642303667433512
+    second: alekzander-zagorulko-as-herb-055_130
+  - first:
+      213: 3504058326750591009
+    second: alekzander-zagorulko-as-herb-055_131
+  - first:
+      213: 9008719203407837646
+    second: alekzander-zagorulko-as-herb-055_132
+  - first:
+      213: 632436148054565248
+    second: alekzander-zagorulko-as-herb-055_133
+  - first:
+      213: 3789841244211184572
+    second: alekzander-zagorulko-as-herb-055_134
+  - first:
+      213: 7451462544382362591
+    second: alekzander-zagorulko-as-herb-055_135
+  - first:
+      213: 4276175602737382826
+    second: alekzander-zagorulko-as-herb-055_136
+  - first:
+      213: -8019721258398796701
+    second: alekzander-zagorulko-as-herb-055_137
+  - first:
+      213: 2589648385059237979
+    second: alekzander-zagorulko-as-herb-055_138
+  - first:
+      213: 1927268772359884775
+    second: alekzander-zagorulko-as-herb-055_139
+  - first:
+      213: -8388646919206864046
+    second: alekzander-zagorulko-as-herb-055_140
+  - first:
+      213: -9186332062305334803
+    second: alekzander-zagorulko-as-herb-055_141
+  - first:
+      213: -2414525789659827907
+    second: alekzander-zagorulko-as-herb-055_142
+  - first:
+      213: 4541007097886865563
+    second: alekzander-zagorulko-as-herb-055_143
+  - first:
+      213: 7816098656717931162
+    second: alekzander-zagorulko-as-herb-055_144
+  - first:
+      213: 5656567636129456448
+    second: alekzander-zagorulko-as-herb-055_145
+  - first:
+      213: 729759166516236653
+    second: alekzander-zagorulko-as-herb-055_146
+  - first:
+      213: 8947798390448519209
+    second: alekzander-zagorulko-as-herb-055_147
+  - first:
+      213: 8919762779986221156
+    second: alekzander-zagorulko-as-herb-055_148
+  - first:
+      213: -6967501050632513975
+    second: alekzander-zagorulko-as-herb-055_149
+  - first:
+      213: 1341403163865264356
+    second: alekzander-zagorulko-as-herb-055_150
+  - first:
+      213: 208284080537307556
+    second: alekzander-zagorulko-as-herb-055_151
+  - first:
+      213: 1125771205434074787
+    second: alekzander-zagorulko-as-herb-055_152
+  - first:
+      213: 621911871545305345
+    second: alekzander-zagorulko-as-herb-055_153
+  - first:
+      213: -4395740862043450292
+    second: alekzander-zagorulko-as-herb-055_154
+  - first:
+      213: -7601359702137189842
+    second: alekzander-zagorulko-as-herb-055_155
+  - first:
+      213: -8315202494276716255
+    second: alekzander-zagorulko-as-herb-055_156
+  - first:
+      213: -3752915176885957889
+    second: alekzander-zagorulko-as-herb-055_157
+  - first:
+      213: -2135262241389792680
+    second: alekzander-zagorulko-as-herb-055_158
+  - first:
+      213: -4624909099425104906
+    second: alekzander-zagorulko-as-herb-055_159
+  - first:
+      213: -79914785498687584
+    second: alekzander-zagorulko-as-herb-055_160
+  - first:
+      213: -5391537701454172461
+    second: alekzander-zagorulko-as-herb-055_161
+  - first:
+      213: 7400563158821825036
+    second: alekzander-zagorulko-as-herb-055_162
+  - first:
+      213: -268698544824240021
+    second: alekzander-zagorulko-as-herb-055_163
+  - first:
+      213: -1530853849434667651
+    second: alekzander-zagorulko-as-herb-055_164
+  - first:
+      213: -5338045596468577041
+    second: alekzander-zagorulko-as-herb-055_165
+  - first:
+      213: 6494487910475698655
+    second: alekzander-zagorulko-as-herb-055_166
+  - first:
+      213: -6733530389279633149
+    second: alekzander-zagorulko-as-herb-055_167
+  - first:
+      213: -6267277361003389776
+    second: alekzander-zagorulko-as-herb-055_168
+  - first:
+      213: 5796214719938182621
+    second: alekzander-zagorulko-as-herb-055_169
+  - first:
+      213: -1129130382745777879
+    second: alekzander-zagorulko-as-herb-055_170
+  - first:
+      213: 71945998395588654
+    second: alekzander-zagorulko-as-herb-055_171
+  - first:
+      213: 7064318514722159984
+    second: alekzander-zagorulko-as-herb-055_172
+  - first:
+      213: 5920768009886020584
+    second: alekzander-zagorulko-as-herb-055_173
+  - first:
+      213: 7578543213331497006
+    second: alekzander-zagorulko-as-herb-055_174
+  - first:
+      213: 1797031552935908425
+    second: alekzander-zagorulko-as-herb-055_175
+  - first:
+      213: -475458640530817145
+    second: alekzander-zagorulko-as-herb-055_176
+  - first:
+      213: 2080223484086741309
+    second: alekzander-zagorulko-as-herb-055_177
+  - first:
+      213: -9043623014544623978
+    second: alekzander-zagorulko-as-herb-055_178
+  - first:
+      213: -2772359892958386563
+    second: alekzander-zagorulko-as-herb-055_179
+  - first:
+      213: -8543245503213363579
+    second: alekzander-zagorulko-as-herb-055_180
+  - first:
+      213: -2819364770230656318
+    second: alekzander-zagorulko-as-herb-055_181
+  - first:
+      213: 7119118878581688572
+    second: alekzander-zagorulko-as-herb-055_182
+  - first:
+      213: 5849810535114902404
+    second: alekzander-zagorulko-as-herb-055_183
+  - first:
+      213: 4551029886979761073
+    second: alekzander-zagorulko-as-herb-055_184
+  - first:
+      213: 2175603933169401208
+    second: alekzander-zagorulko-as-herb-055_185
+  - first:
+      213: -4480402077072065368
+    second: alekzander-zagorulko-as-herb-055_186
+  - first:
+      213: -1917493606016300641
+    second: alekzander-zagorulko-as-herb-055_187
+  - first:
+      213: 987778591461443179
+    second: alekzander-zagorulko-as-herb-055_188
+  - first:
+      213: -1869567417394244561
+    second: alekzander-zagorulko-as-herb-055_189
+  - first:
+      213: -6342624967245936151
+    second: alekzander-zagorulko-as-herb-055_190
+  - first:
+      213: 5519992577755805514
+    second: alekzander-zagorulko-as-herb-055_191
+  - first:
+      213: 9218273510881719292
+    second: alekzander-zagorulko-as-herb-055_192
+  - first:
+      213: -7690705704566130856
+    second: alekzander-zagorulko-as-herb-055_193
+  - first:
+      213: 2519648881719351747
+    second: alekzander-zagorulko-as-herb-055_194
+  - first:
+      213: -714333958837733831
+    second: alekzander-zagorulko-as-herb-055_195
+  - first:
+      213: 2377942875670176157
+    second: alekzander-zagorulko-as-herb-055_196
+  - first:
+      213: 3750571427801766891
+    second: alekzander-zagorulko-as-herb-055_197
+  - first:
+      213: 8585519170539551712
+    second: alekzander-zagorulko-as-herb-055_198
+  - first:
+      213: -4219418768458098187
+    second: alekzander-zagorulko-as-herb-055_199
+  - first:
+      213: 207510632813966317
+    second: alekzander-zagorulko-as-herb-055_200
+  - first:
+      213: 2791360670839326129
+    second: alekzander-zagorulko-as-herb-055_201
+  - first:
+      213: 3304844242594066702
+    second: alekzander-zagorulko-as-herb-055_202
+  - first:
+      213: -2659638905160596966
+    second: alekzander-zagorulko-as-herb-055_203
+  - first:
+      213: 1543711081394960252
+    second: alekzander-zagorulko-as-herb-055_204
+  - first:
+      213: 9032963881567386774
+    second: alekzander-zagorulko-as-herb-055_205
+  - first:
+      213: 7570384609297208452
+    second: alekzander-zagorulko-as-herb-055_206
+  - first:
+      213: 2427536981899360963
+    second: alekzander-zagorulko-as-herb-055_207
+  - first:
+      213: -6491970822993700393
+    second: alekzander-zagorulko-as-herb-055_208
+  - first:
+      213: 3975108929870340905
+    second: alekzander-zagorulko-as-herb-055_209
+  - first:
+      213: -541090892434539707
+    second: alekzander-zagorulko-as-herb-055_210
+  - first:
+      213: -3468245840740554673
+    second: alekzander-zagorulko-as-herb-055_211
+  - first:
+      213: -698174643540027695
+    second: alekzander-zagorulko-as-herb-055_212
+  - first:
+      213: -8368680422912500731
+    second: alekzander-zagorulko-as-herb-055_213
+  - first:
+      213: 4547054032455574750
+    second: alekzander-zagorulko-as-herb-055_214
+  - first:
+      213: 4020714305608871005
+    second: alekzander-zagorulko-as-herb-055_215
+  - first:
+      213: 2884465245262464337
+    second: alekzander-zagorulko-as-herb-055_216
+  - first:
+      213: -4961553184531154156
+    second: alekzander-zagorulko-as-herb-055_217
+  - first:
+      213: -3591828456571021928
+    second: alekzander-zagorulko-as-herb-055_218
+  - first:
+      213: 6217405473924329793
+    second: alekzander-zagorulko-as-herb-055_219
+  - first:
+      213: 7032498516849418354
+    second: alekzander-zagorulko-as-herb-055_220
+  - first:
+      213: 2911767738213508720
+    second: alekzander-zagorulko-as-herb-055_221
+  - first:
+      213: 1822367690091438569
+    second: alekzander-zagorulko-as-herb-055_222
+  - first:
+      213: -5489967931694946553
+    second: alekzander-zagorulko-as-herb-055_223
+  - first:
+      213: -6351683538276150099
+    second: alekzander-zagorulko-as-herb-055_224
+  - first:
+      213: 524915787887338763
+    second: alekzander-zagorulko-as-herb-055_225
+  - first:
+      213: -9108899607688333842
+    second: alekzander-zagorulko-as-herb-055_226
+  - first:
+      213: 2374835313971825235
+    second: alekzander-zagorulko-as-herb-055_227
+  - first:
+      213: -6308986976168069286
+    second: alekzander-zagorulko-as-herb-055_228
+  - first:
+      213: -7984204228840176073
+    second: alekzander-zagorulko-as-herb-055_229
+  - first:
+      213: -8652484099161779929
+    second: alekzander-zagorulko-as-herb-055_230
+  - first:
+      213: -856217453489275469
+    second: alekzander-zagorulko-as-herb-055_231
+  - first:
+      213: 3435389789398531592
+    second: alekzander-zagorulko-as-herb-055_232
+  - first:
+      213: 4321736849675305918
+    second: alekzander-zagorulko-as-herb-055_233
+  - first:
+      213: 6242663623895488817
+    second: alekzander-zagorulko-as-herb-055_234
+  - first:
+      213: 5625631343250154917
+    second: alekzander-zagorulko-as-herb-055_235
+  - first:
+      213: -4181500636981492434
+    second: alekzander-zagorulko-as-herb-055_236
+  - first:
+      213: 7943104857269761439
+    second: alekzander-zagorulko-as-herb-055_237
+  - first:
+      213: 2125794353419049151
+    second: alekzander-zagorulko-as-herb-055_238
+  - first:
+      213: 9018025189596120515
+    second: alekzander-zagorulko-as-herb-055_239
+  - first:
+      213: -2647373308186801356
+    second: alekzander-zagorulko-as-herb-055_240
+  - first:
+      213: -7702862506902173271
+    second: alekzander-zagorulko-as-herb-055_241
+  - first:
+      213: -7498933293913865040
+    second: alekzander-zagorulko-as-herb-055_242
+  - first:
+      213: 6219507162281428695
+    second: alekzander-zagorulko-as-herb-055_243
+  - first:
+      213: 1943467479063308239
+    second: alekzander-zagorulko-as-herb-055_244
+  - first:
+      213: 1404596075400007641
+    second: alekzander-zagorulko-as-herb-055_245
+  - first:
+      213: -3869337313881040676
+    second: alekzander-zagorulko-as-herb-055_246
+  - first:
+      213: 1713379901511239150
+    second: alekzander-zagorulko-as-herb-055_247
+  - first:
+      213: 2045056060536888351
+    second: alekzander-zagorulko-as-herb-055_248
+  - first:
+      213: -8561831454765794246
+    second: alekzander-zagorulko-as-herb-055_249
+  - first:
+      213: 8809262975173117250
+    second: alekzander-zagorulko-as-herb-055_250
+  - first:
+      213: 2171759570141203343
+    second: alekzander-zagorulko-as-herb-055_251
+  - first:
+      213: -8770582261278371877
+    second: alekzander-zagorulko-as-herb-055_252
+  - first:
+      213: 3704743480749076039
+    second: alekzander-zagorulko-as-herb-055_253
+  - first:
+      213: 6543930930539772040
+    second: alekzander-zagorulko-as-herb-055_254
+  - first:
+      213: 1294108486980910558
+    second: alekzander-zagorulko-as-herb-055_255
+  - first:
+      213: 8449442230997796440
+    second: alekzander-zagorulko-as-herb-055_256
+  - first:
+      213: -4304281135581961005
+    second: alekzander-zagorulko-as-herb-055_257
+  - first:
+      213: 5883746468670494842
+    second: alekzander-zagorulko-as-herb-055_258
+  - first:
+      213: 9214611097533141937
+    second: alekzander-zagorulko-as-herb-055_259
+  - first:
+      213: 281409446048214359
+    second: alekzander-zagorulko-as-herb-055_260
+  - first:
+      213: 6221220456307700530
+    second: alekzander-zagorulko-as-herb-055_261
+  - first:
+      213: -500500734011847672
+    second: alekzander-zagorulko-as-herb-055_262
+  - first:
+      213: 6704506645216050350
+    second: alekzander-zagorulko-as-herb-055_263
+  - first:
+      213: -6853560416741329499
+    second: alekzander-zagorulko-as-herb-055_264
+  - first:
+      213: -2853953925458506396
+    second: alekzander-zagorulko-as-herb-055_265
+  - first:
+      213: 5973719762059715890
+    second: alekzander-zagorulko-as-herb-055_266
+  - first:
+      213: -5469075161523752222
+    second: alekzander-zagorulko-as-herb-055_267
+  - first:
+      213: -7162682266216389192
+    second: alekzander-zagorulko-as-herb-055_268
+  - first:
+      213: 5652228970361735826
+    second: alekzander-zagorulko-as-herb-055_269
+  - first:
+      213: -8113554489359256740
+    second: alekzander-zagorulko-as-herb-055_270
+  - first:
+      213: 6049662806821506281
+    second: alekzander-zagorulko-as-herb-055_271
+  - first:
+      213: 4535695875347536289
+    second: alekzander-zagorulko-as-herb-055_272
+  - first:
+      213: 6852180157774521720
+    second: alekzander-zagorulko-as-herb-055_273
+  - first:
+      213: -3338424769930634846
+    second: alekzander-zagorulko-as-herb-055_274
+  - first:
+      213: -147938061515496528
+    second: alekzander-zagorulko-as-herb-055_275
+  - first:
+      213: -5399548128231049017
+    second: alekzander-zagorulko-as-herb-055_276
+  - first:
+      213: -1610808344197604042
+    second: alekzander-zagorulko-as-herb-055_277
+  - first:
+      213: 4708022032112725651
+    second: alekzander-zagorulko-as-herb-055_278
+  - first:
+      213: 1568863536741503358
+    second: alekzander-zagorulko-as-herb-055_279
+  - first:
+      213: -575824995696518076
+    second: alekzander-zagorulko-as-herb-055_280
+  - first:
+      213: -7128433519004695521
+    second: alekzander-zagorulko-as-herb-055_281
+  - first:
+      213: 4670174760977182099
+    second: alekzander-zagorulko-as-herb-055_282
+  - first:
+      213: -4195015635585820624
+    second: alekzander-zagorulko-as-herb-055_283
+  - first:
+      213: -5368961896514537752
+    second: alekzander-zagorulko-as-herb-055_284
+  - first:
+      213: -8193002468542906811
+    second: alekzander-zagorulko-as-herb-055_285
+  - first:
+      213: 5856319225765953924
+    second: alekzander-zagorulko-as-herb-055_286
+  - first:
+      213: 4117548630385942974
+    second: alekzander-zagorulko-as-herb-055_287
+  - first:
+      213: -1866565958790200695
+    second: alekzander-zagorulko-as-herb-055_288
+  - first:
+      213: 3737407508142285435
+    second: alekzander-zagorulko-as-herb-055_289
+  - first:
+      213: 1865234302571773506
+    second: alekzander-zagorulko-as-herb-055_290
+  - first:
+      213: 1531000410272468007
+    second: alekzander-zagorulko-as-herb-055_291
+  - first:
+      213: -3354915020613166344
+    second: alekzander-zagorulko-as-herb-055_292
+  - first:
+      213: 7685767795248137415
+    second: alekzander-zagorulko-as-herb-055_293
+  - first:
+      213: -1239029558928245258
+    second: alekzander-zagorulko-as-herb-055_294
+  - first:
+      213: -5734286579660673880
+    second: alekzander-zagorulko-as-herb-055_295
+  - first:
+      213: 8276739380221864976
+    second: alekzander-zagorulko-as-herb-055_296
+  - first:
+      213: 5989796762427140862
+    second: alekzander-zagorulko-as-herb-055_297
+  - first:
+      213: -6233912435107631740
+    second: alekzander-zagorulko-as-herb-055_298
+  - first:
+      213: 5273947785319769691
+    second: alekzander-zagorulko-as-herb-055_299
+  - first:
+      213: -9000517693901261747
+    second: alekzander-zagorulko-as-herb-055_300
+  - first:
+      213: -3734657497177800185
+    second: alekzander-zagorulko-as-herb-055_301
+  - first:
+      213: -4973948437955545176
+    second: alekzander-zagorulko-as-herb-055_302
+  - first:
+      213: 7022705200123571610
+    second: alekzander-zagorulko-as-herb-055_303
+  - first:
+      213: 5293894939964389910
+    second: alekzander-zagorulko-as-herb-055_304
+  - first:
+      213: 4551764193918744008
+    second: alekzander-zagorulko-as-herb-055_305
+  - first:
+      213: 1587137993843563052
+    second: alekzander-zagorulko-as-herb-055_306
+  - first:
+      213: -8616838759418045838
+    second: alekzander-zagorulko-as-herb-055_307
+  - first:
+      213: 6722284739753458460
+    second: alekzander-zagorulko-as-herb-055_308
+  - first:
+      213: -3594243975949346600
+    second: alekzander-zagorulko-as-herb-055_309
+  - first:
+      213: -6918512684512258871
+    second: alekzander-zagorulko-as-herb-055_310
+  - first:
+      213: -2320960947614910482
+    second: alekzander-zagorulko-as-herb-055_311
+  - first:
+      213: -8912037031216066404
+    second: alekzander-zagorulko-as-herb-055_312
+  - first:
+      213: -2759378614921465364
+    second: alekzander-zagorulko-as-herb-055_313
+  - first:
+      213: 7257098063237114145
+    second: alekzander-zagorulko-as-herb-055_314
+  - first:
+      213: -6775849336624555789
+    second: alekzander-zagorulko-as-herb-055_315
+  - first:
+      213: 4432910518041452886
+    second: alekzander-zagorulko-as-herb-055_316
+  - first:
+      213: 2777691227064079126
+    second: alekzander-zagorulko-as-herb-055_317
+  - first:
+      213: -5107702943898138032
+    second: alekzander-zagorulko-as-herb-055_318
+  - first:
+      213: -4249472123297838734
+    second: alekzander-zagorulko-as-herb-055_319
+  - first:
+      213: -8330356076366444346
+    second: alekzander-zagorulko-as-herb-055_320
+  - first:
+      213: -1937424656304847211
+    second: alekzander-zagorulko-as-herb-055_321
+  - first:
+      213: 6601642886640578647
+    second: alekzander-zagorulko-as-herb-055_322
+  - first:
+      213: -876628971742451553
+    second: alekzander-zagorulko-as-herb-055_323
+  - first:
+      213: -1941223836987237577
+    second: alekzander-zagorulko-as-herb-055_324
+  - first:
+      213: -535291160742640637
+    second: alekzander-zagorulko-as-herb-055_325
+  - first:
+      213: 6519402418069851918
+    second: alekzander-zagorulko-as-herb-055_326
+  - first:
+      213: 4262065104799884767
+    second: alekzander-zagorulko-as-herb-055_327
+  - first:
+      213: -7882103349449597863
+    second: alekzander-zagorulko-as-herb-055_328
+  - first:
+      213: 538927467239717923
+    second: alekzander-zagorulko-as-herb-055_329
+  - first:
+      213: 2427898510650122925
+    second: alekzander-zagorulko-as-herb-055_330
+  - first:
+      213: -6453442465250081129
+    second: alekzander-zagorulko-as-herb-055_331
+  - first:
+      213: -5734149410322063525
+    second: alekzander-zagorulko-as-herb-055_332
+  - first:
+      213: 166305956463415782
+    second: alekzander-zagorulko-as-herb-055_333
+  - first:
+      213: -596724969208377969
+    second: alekzander-zagorulko-as-herb-055_334
+  - first:
+      213: 4911248085186582393
+    second: alekzander-zagorulko-as-herb-055_335
+  - first:
+      213: 3010736727268038163
+    second: alekzander-zagorulko-as-herb-055_336
+  - first:
+      213: 9183848294394324698
+    second: alekzander-zagorulko-as-herb-055_337
+  - first:
+      213: 4988848135569548796
+    second: alekzander-zagorulko-as-herb-055_338
+  - first:
+      213: -6098045338209357979
+    second: alekzander-zagorulko-as-herb-055_339
+  - first:
+      213: -1879619094747688289
+    second: alekzander-zagorulko-as-herb-055_340
+  - first:
+      213: -8401951264773230299
+    second: alekzander-zagorulko-as-herb-055_341
+  - first:
+      213: -771051234460259983
+    second: alekzander-zagorulko-as-herb-055_342
+  - first:
+      213: 746834587676491626
+    second: alekzander-zagorulko-as-herb-055_343
+  - first:
+      213: -4622337345962485851
+    second: alekzander-zagorulko-as-herb-055_344
+  - first:
+      213: 3577879118826450503
+    second: alekzander-zagorulko-as-herb-055_345
+  - first:
+      213: -4190704292944842852
+    second: alekzander-zagorulko-as-herb-055_346
+  - first:
+      213: -5657094192155955543
+    second: alekzander-zagorulko-as-herb-055_347
+  - first:
+      213: -3577974795097584915
+    second: alekzander-zagorulko-as-herb-055_348
+  - first:
+      213: -1904918014461551121
+    second: alekzander-zagorulko-as-herb-055_349
+  - first:
+      213: -5769851917538649053
+    second: alekzander-zagorulko-as-herb-055_350
+  - first:
+      213: -8693544465447471180
+    second: alekzander-zagorulko-as-herb-055_351
+  - first:
+      213: -4362374946906215750
+    second: alekzander-zagorulko-as-herb-055_352
+  - first:
+      213: 745619333844683506
+    second: alekzander-zagorulko-as-herb-055_353
+  - first:
+      213: -8526500311766061106
+    second: alekzander-zagorulko-as-herb-055_354
+  - first:
+      213: -6638873785353102208
+    second: alekzander-zagorulko-as-herb-055_355
+  - first:
+      213: -8912810822778501920
+    second: alekzander-zagorulko-as-herb-055_356
+  - first:
+      213: 7140276472959168287
+    second: alekzander-zagorulko-as-herb-055_357
+  - first:
+      213: 2095229928275280778
+    second: alekzander-zagorulko-as-herb-055_358
+  - first:
+      213: 8917676206411921862
+    second: alekzander-zagorulko-as-herb-055_359
+  - first:
+      213: 4115485353242637224
+    second: alekzander-zagorulko-as-herb-055_360
+  - first:
+      213: 1140325233401235794
+    second: alekzander-zagorulko-as-herb-055_361
+  - first:
+      213: 4710121407077865309
+    second: alekzander-zagorulko-as-herb-055_362
+  - first:
+      213: 8458254254442559074
+    second: alekzander-zagorulko-as-herb-055_363
+  - first:
+      213: 4234936636534266763
+    second: alekzander-zagorulko-as-herb-055_364
+  - first:
+      213: -5050286323314685581
+    second: alekzander-zagorulko-as-herb-055_365
+  - first:
+      213: -5869468560077064568
+    second: alekzander-zagorulko-as-herb-055_366
+  - first:
+      213: 267335846633330891
+    second: alekzander-zagorulko-as-herb-055_367
+  - first:
+      213: -8195099242108906916
+    second: alekzander-zagorulko-as-herb-055_368
+  - first:
+      213: -7252646061174304938
+    second: alekzander-zagorulko-as-herb-055_369
+  - first:
+      213: 3659303054068275536
+    second: alekzander-zagorulko-as-herb-055_370
+  - first:
+      213: 3619246230884148972
+    second: alekzander-zagorulko-as-herb-055_371
+  - first:
+      213: 8162836460096700091
+    second: alekzander-zagorulko-as-herb-055_372
+  - first:
+      213: -6523662175163049706
+    second: alekzander-zagorulko-as-herb-055_373
+  - first:
+      213: -6973130007657386453
+    second: alekzander-zagorulko-as-herb-055_374
+  - first:
+      213: -3379362278832054790
+    second: alekzander-zagorulko-as-herb-055_375
+  - first:
+      213: 1522712767478417783
+    second: alekzander-zagorulko-as-herb-055_376
+  - first:
+      213: 2067635484602977743
+    second: alekzander-zagorulko-as-herb-055_377
+  - first:
+      213: -4143348553014725430
+    second: alekzander-zagorulko-as-herb-055_378
+  - first:
+      213: 8534646423774582906
+    second: alekzander-zagorulko-as-herb-055_379
+  - first:
+      213: 5329090240149572015
+    second: alekzander-zagorulko-as-herb-055_380
+  - first:
+      213: -3068623849782409415
+    second: alekzander-zagorulko-as-herb-055_381
+  - first:
+      213: 2605328031671253572
+    second: alekzander-zagorulko-as-herb-055_382
+  - first:
+      213: 7937373803120015557
+    second: alekzander-zagorulko-as-herb-055_383
+  - first:
+      213: -2299925631567311281
+    second: alekzander-zagorulko-as-herb-055_384
+  - first:
+      213: -5794558531346881748
+    second: alekzander-zagorulko-as-herb-055_385
+  - first:
+      213: -2441329434665859074
+    second: alekzander-zagorulko-as-herb-055_386
+  - first:
+      213: 7854855573619307618
+    second: alekzander-zagorulko-as-herb-055_387
+  - first:
+      213: 3056920365123883817
+    second: alekzander-zagorulko-as-herb-055_388
+  - first:
+      213: 4054499691722721463
+    second: alekzander-zagorulko-as-herb-055_389
+  - first:
+      213: -5980977829879554308
+    second: alekzander-zagorulko-as-herb-055_390
+  - first:
+      213: -6568913654398663856
+    second: alekzander-zagorulko-as-herb-055_391
+  - first:
+      213: 3464389728749645368
+    second: alekzander-zagorulko-as-herb-055_392
+  - first:
+      213: 7123660691335786096
+    second: alekzander-zagorulko-as-herb-055_393
+  - first:
+      213: 3421114560871569988
+    second: alekzander-zagorulko-as-herb-055_394
+  - first:
+      213: 5968480781398470120
+    second: alekzander-zagorulko-as-herb-055_395
+  - first:
+      213: 1795047185139277796
+    second: alekzander-zagorulko-as-herb-055_396
+  - first:
+      213: -2831298564226053558
+    second: alekzander-zagorulko-as-herb-055_397
+  - first:
+      213: -1090455578227704172
+    second: alekzander-zagorulko-as-herb-055_398
+  - first:
+      213: 3598565478607893792
+    second: alekzander-zagorulko-as-herb-055_399
+  - first:
+      213: 8595904111825336820
+    second: alekzander-zagorulko-as-herb-055_400
+  - first:
+      213: -3623311447891112124
+    second: alekzander-zagorulko-as-herb-055_401
+  - first:
+      213: -7615798532386149017
+    second: alekzander-zagorulko-as-herb-055_402
+  - first:
+      213: -4678140135028005664
+    second: alekzander-zagorulko-as-herb-055_403
+  - first:
+      213: 8797294246566054308
+    second: alekzander-zagorulko-as-herb-055_404
+  - first:
+      213: 3018972525345676424
+    second: alekzander-zagorulko-as-herb-055_405
+  - first:
+      213: -6811040977421850164
+    second: alekzander-zagorulko-as-herb-055_406
+  - first:
+      213: -3129625779984662781
+    second: alekzander-zagorulko-as-herb-055_407
+  - first:
+      213: -9158757150218886627
+    second: alekzander-zagorulko-as-herb-055_408
+  - first:
+      213: 7297406716554393613
+    second: alekzander-zagorulko-as-herb-055_409
+  - first:
+      213: -6199193972218883708
+    second: alekzander-zagorulko-as-herb-055_410
+  - first:
+      213: 6716071404818071244
+    second: alekzander-zagorulko-as-herb-055_411
+  - first:
+      213: -5975688405376279903
+    second: alekzander-zagorulko-as-herb-055_412
+  - first:
+      213: 5928346213811308752
+    second: alekzander-zagorulko-as-herb-055_413
+  - first:
+      213: -6481794207401420425
+    second: alekzander-zagorulko-as-herb-055_414
+  - first:
+      213: -3902595501475962106
+    second: alekzander-zagorulko-as-herb-055_415
+  - first:
+      213: 1870107635431393016
+    second: alekzander-zagorulko-as-herb-055_416
+  - first:
+      213: -4761122357459796247
+    second: alekzander-zagorulko-as-herb-055_417
+  - first:
+      213: 6383820882650358501
+    second: alekzander-zagorulko-as-herb-055_418
+  - first:
+      213: 7261228065827506009
+    second: alekzander-zagorulko-as-herb-055_419
+  - first:
+      213: 9193774165152649452
+    second: alekzander-zagorulko-as-herb-055_420
+  - first:
+      213: -8095557657549608535
+    second: alekzander-zagorulko-as-herb-055_421
+  - first:
+      213: 7429374028411017167
+    second: alekzander-zagorulko-as-herb-055_422
+  - first:
+      213: -3755579179600794388
+    second: alekzander-zagorulko-as-herb-055_423
+  - first:
+      213: -1672237740898465532
+    second: alekzander-zagorulko-as-herb-055_424
+  - first:
+      213: 560316297026149572
+    second: alekzander-zagorulko-as-herb-055_425
+  - first:
+      213: -6014958871754116574
+    second: alekzander-zagorulko-as-herb-055_426
+  - first:
+      213: 39352630998216888
+    second: alekzander-zagorulko-as-herb-055_427
+  - first:
+      213: 5217633942984260042
+    second: alekzander-zagorulko-as-herb-055_428
+  - first:
+      213: -1212479216951278799
+    second: alekzander-zagorulko-as-herb-055_429
+  - first:
+      213: -3518593628741851259
+    second: alekzander-zagorulko-as-herb-055_430
+  - first:
+      213: -3839134195556959531
+    second: alekzander-zagorulko-as-herb-055_431
+  - first:
+      213: -1211764292532526269
+    second: alekzander-zagorulko-as-herb-055_432
+  - first:
+      213: 6442049238414573975
+    second: alekzander-zagorulko-as-herb-055_433
+  - first:
+      213: -9032887930446907199
+    second: alekzander-zagorulko-as-herb-055_434
+  - first:
+      213: -9043727628170830569
+    second: alekzander-zagorulko-as-herb-055_435
+  - first:
+      213: -6735908061290134564
+    second: alekzander-zagorulko-as-herb-055_436
+  - first:
+      213: 5731324795988351396
+    second: alekzander-zagorulko-as-herb-055_437
+  - first:
+      213: 2558997855945489353
+    second: alekzander-zagorulko-as-herb-055_438
+  - first:
+      213: -5220353351765948180
+    second: alekzander-zagorulko-as-herb-055_439
+  - first:
+      213: -2150910027103572683
+    second: alekzander-zagorulko-as-herb-055_440
+  - first:
+      213: -1362999328318490526
+    second: alekzander-zagorulko-as-herb-055_441
+  - first:
+      213: 6242304228934609789
+    second: alekzander-zagorulko-as-herb-055_442
+  - first:
+      213: 3761981737759964224
+    second: alekzander-zagorulko-as-herb-055_443
+  - first:
+      213: -2030200300780961024
+    second: alekzander-zagorulko-as-herb-055_444
+  - first:
+      213: -7398080812597295140
+    second: alekzander-zagorulko-as-herb-055_445
+  - first:
+      213: -2195483831421581270
+    second: alekzander-zagorulko-as-herb-055_446
+  - first:
+      213: -3987007808306252898
+    second: alekzander-zagorulko-as-herb-055_447
+  - first:
+      213: 8858291518535691458
+    second: alekzander-zagorulko-as-herb-055_448
+  - first:
+      213: 9219145696568737557
+    second: alekzander-zagorulko-as-herb-055_449
+  - first:
+      213: -3583265381416488009
+    second: alekzander-zagorulko-as-herb-055_450
+  - first:
+      213: 2505939231542600943
+    second: alekzander-zagorulko-as-herb-055_451
+  - first:
+      213: -4708994080430881620
+    second: alekzander-zagorulko-as-herb-055_452
+  - first:
+      213: 6423769131115387738
+    second: alekzander-zagorulko-as-herb-055_453
+  - first:
+      213: -6007701259121173864
+    second: alekzander-zagorulko-as-herb-055_454
+  - first:
+      213: 923081186949156735
+    second: alekzander-zagorulko-as-herb-055_455
+  - first:
+      213: -2413104507814338218
+    second: alekzander-zagorulko-as-herb-055_456
+  - first:
+      213: 8604064069123511548
+    second: alekzander-zagorulko-as-herb-055_457
+  - first:
+      213: -7916946889697035531
+    second: alekzander-zagorulko-as-herb-055_458
+  - first:
+      213: -925045534739226574
+    second: alekzander-zagorulko-as-herb-055_459
+  - first:
+      213: -9049597381083576876
+    second: alekzander-zagorulko-as-herb-055_460
+  - first:
+      213: -6896750661869587574
+    second: alekzander-zagorulko-as-herb-055_461
+  - first:
+      213: 6005802606497508594
+    second: alekzander-zagorulko-as-herb-055_462
+  - first:
+      213: -1455612360824913459
+    second: alekzander-zagorulko-as-herb-055_463
+  - first:
+      213: -7764140910916160139
+    second: alekzander-zagorulko-as-herb-055_464
+  - first:
+      213: -7031068712382513084
+    second: alekzander-zagorulko-as-herb-055_465
+  - first:
+      213: 3921475920818648659
+    second: alekzander-zagorulko-as-herb-055_466
+  - first:
+      213: 2804807113307474759
+    second: alekzander-zagorulko-as-herb-055_467
+  - first:
+      213: -234312450395829040
+    second: alekzander-zagorulko-as-herb-055_468
+  - first:
+      213: -879700683772717149
+    second: alekzander-zagorulko-as-herb-055_469
+  - first:
+      213: -4852925339431411672
+    second: alekzander-zagorulko-as-herb-055_470
+  - first:
+      213: -2966368714196839982
+    second: alekzander-zagorulko-as-herb-055_471
+  - first:
+      213: -7327500980644423525
+    second: alekzander-zagorulko-as-herb-055_472
+  - first:
+      213: 4286100136887652652
+    second: alekzander-zagorulko-as-herb-055_473
+  - first:
+      213: -5720276937403917270
+    second: alekzander-zagorulko-as-herb-055_474
+  - first:
+      213: 2936089892862784008
+    second: alekzander-zagorulko-as-herb-055_475
+  - first:
+      213: 2497300885951663278
+    second: alekzander-zagorulko-as-herb-055_476
+  - first:
+      213: -6537422385331265855
+    second: alekzander-zagorulko-as-herb-055_477
+  - first:
+      213: 6309251970032192852
+    second: alekzander-zagorulko-as-herb-055_478
+  - first:
+      213: -7986386963902965643
+    second: alekzander-zagorulko-as-herb-055_479
+  - first:
+      213: 5858624848531878999
+    second: alekzander-zagorulko-as-herb-055_480
+  - first:
+      213: 3569188143625980422
+    second: alekzander-zagorulko-as-herb-055_481
+  - first:
+      213: -3865765223727290407
+    second: alekzander-zagorulko-as-herb-055_482
+  - first:
+      213: 2665484115664724280
+    second: alekzander-zagorulko-as-herb-055_483
+  - first:
+      213: -3391975698204049199
+    second: alekzander-zagorulko-as-herb-055_484
+  - first:
+      213: 5386656444248135324
+    second: alekzander-zagorulko-as-herb-055_485
+  - first:
+      213: -7550472758687412495
+    second: alekzander-zagorulko-as-herb-055_486
+  - first:
+      213: -4055253047331048493
+    second: alekzander-zagorulko-as-herb-055_487
+  - first:
+      213: -75287138017255769
+    second: alekzander-zagorulko-as-herb-055_488
+  - first:
+      213: -8098236893691646406
+    second: alekzander-zagorulko-as-herb-055_489
+  - first:
+      213: -4367749086591106678
+    second: alekzander-zagorulko-as-herb-055_490
+  - first:
+      213: -5307099523630425505
+    second: alekzander-zagorulko-as-herb-055_491
+  - first:
+      213: 7485825963804158375
+    second: alekzander-zagorulko-as-herb-055_492
+  - first:
+      213: -6946942286252492162
+    second: alekzander-zagorulko-as-herb-055_493
+  - first:
+      213: -2194820992594053468
+    second: alekzander-zagorulko-as-herb-055_494
+  - first:
+      213: -3766554143704403075
+    second: alekzander-zagorulko-as-herb-055_495
+  - first:
+      213: 5256370708138486968
+    second: alekzander-zagorulko-as-herb-055_496
+  - first:
+      213: -4231980793095737634
+    second: alekzander-zagorulko-as-herb-055_497
+  - first:
+      213: 2276772105284033461
+    second: alekzander-zagorulko-as-herb-055_498
+  - first:
+      213: -5366439468683171086
+    second: alekzander-zagorulko-as-herb-055_499
+  - first:
+      213: -6445800533992697936
+    second: alekzander-zagorulko-as-herb-055_500
+  - first:
+      213: -8242553078627060389
+    second: alekzander-zagorulko-as-herb-055_501
+  - first:
+      213: -680020340553851038
+    second: alekzander-zagorulko-as-herb-055_502
+  - first:
+      213: 7929441925000884228
+    second: alekzander-zagorulko-as-herb-055_503
+  - first:
+      213: -1476989809098553820
+    second: alekzander-zagorulko-as-herb-055_504
+  - first:
+      213: 3121671056903574821
+    second: alekzander-zagorulko-as-herb-055_505
+  - first:
+      213: 6331940861689361077
+    second: alekzander-zagorulko-as-herb-055_506
+  - first:
+      213: 3701562884941493330
+    second: alekzander-zagorulko-as-herb-055_507
+  - first:
+      213: 2319161700332844861
+    second: alekzander-zagorulko-as-herb-055_508
+  - first:
+      213: -7269094409511735027
+    second: alekzander-zagorulko-as-herb-055_509
+  - first:
+      213: -4239054413825340991
+    second: alekzander-zagorulko-as-herb-055_510
+  - first:
+      213: 3251822392901648642
+    second: alekzander-zagorulko-as-herb-055_511
+  - first:
+      213: -3404903835053171050
+    second: alekzander-zagorulko-as-herb-055_512
+  - first:
+      213: -810880795881367418
+    second: alekzander-zagorulko-as-herb-055_513
+  - first:
+      213: -8663850374035936358
+    second: alekzander-zagorulko-as-herb-055_514
+  - first:
+      213: -6888882636677352464
+    second: alekzander-zagorulko-as-herb-055_515
+  - first:
+      213: -4685228837436153874
+    second: alekzander-zagorulko-as-herb-055_516
+  - first:
+      213: 3864517355618752124
+    second: alekzander-zagorulko-as-herb-055_517
+  - first:
+      213: 6075539679904108128
+    second: alekzander-zagorulko-as-herb-055_518
+  - first:
+      213: 5667784497057794248
+    second: alekzander-zagorulko-as-herb-055_519
+  - first:
+      213: -466012452209721960
+    second: alekzander-zagorulko-as-herb-055_520
+  - first:
+      213: 7413609939176529847
+    second: alekzander-zagorulko-as-herb-055_521
+  - first:
+      213: 8130793471579487187
+    second: alekzander-zagorulko-as-herb-055_522
+  - first:
+      213: 7476450585381799546
+    second: alekzander-zagorulko-as-herb-055_523
+  - first:
+      213: -319706500615918982
+    second: alekzander-zagorulko-as-herb-055_524
+  - first:
+      213: 8031422737205575666
+    second: alekzander-zagorulko-as-herb-055_525
+  - first:
+      213: -4640567766287555898
+    second: alekzander-zagorulko-as-herb-055_526
+  - first:
+      213: 6674309500086760941
+    second: alekzander-zagorulko-as-herb-055_527
+  - first:
+      213: -1150580378304799224
+    second: alekzander-zagorulko-as-herb-055_528
+  - first:
+      213: 7338490743807082031
+    second: alekzander-zagorulko-as-herb-055_529
+  - first:
+      213: -4128421322870379982
+    second: alekzander-zagorulko-as-herb-055_530
+  - first:
+      213: 599454359858713902
+    second: alekzander-zagorulko-as-herb-055_531
+  - first:
+      213: 8866724556696201959
+    second: alekzander-zagorulko-as-herb-055_532
+  - first:
+      213: -2598395710962978117
+    second: alekzander-zagorulko-as-herb-055_533
+  - first:
+      213: -8115975241401735260
+    second: alekzander-zagorulko-as-herb-055_534
+  - first:
+      213: 2361659843958579248
+    second: alekzander-zagorulko-as-herb-055_535
+  - first:
+      213: 2928848713127849450
+    second: alekzander-zagorulko-as-herb-055_536
+  - first:
+      213: 3274577283206985174
+    second: alekzander-zagorulko-as-herb-055_537
+  - first:
+      213: -2878752401844494764
+    second: alekzander-zagorulko-as-herb-055_538
+  - first:
+      213: 8381076727314253073
+    second: alekzander-zagorulko-as-herb-055_539
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ed9f12c4481f7a0800000000000000
+      internalID: -6345144937465913848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6251ec8d8f9ae09f0800000000000000
+      internalID: -500275622337178330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb44ca2a2eac2320800000000000000
+      internalID: 2534592186432113626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_3
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce53aa415fa71d30800000000000000
+      internalID: 4402179924457381579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_4
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba55bd8bc97595c0800000000000000
+      internalID: -4209324361545065808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_5
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d579dd82c27050ac0800000000000000
+      internalID: -3889694816918988963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_6
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3c055eb3435f920800000000000000
+      internalID: 3023380156704146381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_7
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f3272497d2e3c90800000000000000
+      internalID: -7188257956407656678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_8
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be6ab341310acc70800000000000000
+      internalID: 8992000917099933365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_9
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45337a695e312fc70800000000000000
+      internalID: 9003280481863021396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_10
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027d0a1cda4c74d20800000000000000
+      internalID: 3262792705610143520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_11
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efe84e625a9ed710800000000000000
+      internalID: 1719981786530377705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_12
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1035
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33798dc8d4ce1d50800000000000000
+      internalID: 6710016930268934974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_13
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29816be71b1230220800000000000000
+      internalID: 2450839668438472850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6a22877cffefe50800000000000000
+      internalID: 6845189715828844283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_15
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec970c1a9eb3e8470800000000000000
+      internalID: 8398716229719718350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_16
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eab409695f79c70800000000000000
+      internalID: 8977914409201151506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_17
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a57f116368bc1d0800000000000000
+      internalID: -3329419932722570674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_18
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7bb3694adc17c70800000000000000
+      internalID: 8967174439850194931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_19
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7544dde61d25060800000000000000
+      internalID: 6940840249820207097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_20
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691862c02b0edc9d0800000000000000
+      internalID: -2752296741940854378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_21
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebf05e42f6717940800000000000000
+      internalID: 5292141820205136866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_22
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f66d6b5d7fcb280800000000000000
+      internalID: -9026067055889715304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_23
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d21ce628474ed90800000000000000
+      internalID: -7069397411512111817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_24
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3244d7f4a5400fd0800000000000000
+      internalID: -2377824028416785858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_25
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 890
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652677161fccec9d0800000000000000
+      internalID: -2752036985182395818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_26
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8727cc8dc77451760800000000000000
+      internalID: 7427921761956295288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_27
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f5ac818546377e0800000000000000
+      internalID: -1768959899090657420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_28
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f21b09f18767ea60800000000000000
+      internalID: 7703239495567217396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_29
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ebaef5b45c6fbe0800000000000000
+      internalID: -1443749703003226553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_30
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f64afe2fc6169300800000000000000
+      internalID: 258419107722577650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_31
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0849ef8084e4960800000000000000
+      internalID: 7588081625633947879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_32
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5f4da19a8da0ac0800000000000000
+      internalID: -3888057107469765216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_33
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15db74203b288d530800000000000000
+      internalID: 3879994784328695121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_34
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe56feb8e8df4140800000000000000
+      internalID: 4706218629773287165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_35
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdfa6f96fed03f40800000000000000
+      internalID: 5706305878696328624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_36
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56dcbd15468e4690800000000000000
+      internalID: -7616002288427149732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_37
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9a3337e92dc5110800000000000000
+      internalID: 1251106374481586650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_38
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 745
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473283321eb100bf0800000000000000
+      internalID: -360257316417166476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_39
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5dba378fc291520800000000000000
+      internalID: 2673217299425252852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_40
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf3673f7d6d8a710800000000000000
+      internalID: 1704848681950658494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_41
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e5992c123eab0b0800000000000000
+      internalID: -5712003443227795849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_42
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14776a33055526d0800000000000000
+      internalID: -3015910903101557730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_43
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fb30421a572dd50800000000000000
+      internalID: 6760595325590945589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_44
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d6067c99782e9d0800000000000000
+      internalID: -2746483728197849698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_45
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40e868a9fbc69610800000000000000
+      internalID: 1627712588473753674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_46
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a229e25afb4e25f80800000000000000
+      internalID: -8119175666434403798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_47
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7072a39dd5d1990800000000000000
+      internalID: -7413666224017045589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_48
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059896268cfd35d60800000000000000
+      internalID: 7877886224938666320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_49
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e281390e1c4a610800000000000000
+      internalID: 1631642135299632647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_50
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766fd83d7156e7360800000000000000
+      internalID: 7169278809828357735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_51
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 600
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e119d5d358a1550800000000000000
+      internalID: 6132360341227642428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_52
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f6c27d3aa0cd3f0800000000000000
+      internalID: -874812528810758282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_53
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461f53361064b9560800000000000000
+      internalID: 7321522590994264420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_54
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095bb9ceaf454c3b0800000000000000
+      internalID: -5493172208796977776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_55
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec335906b1eed3b80800000000000000
+      internalID: -8413306727506299954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_56
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00f331b3fe3c4630800000000000000
+      internalID: 3912571392649064461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_57
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5162f6e039b1e8b80800000000000000
+      internalID: -8390738737328347627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_58
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174d7468afd3dcdb0800000000000000
+      internalID: -4770088284111514511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_59
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457a9a0ffeb105490800000000000000
+      internalID: -7759671440610580652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_60
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff45692623e02ed00800000000000000
+      internalID: 1000377676794844415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_61
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24715b58a50c3ad40800000000000000
+      internalID: 5594526657147115330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_62
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c76681c7d82dc0e0800000000000000
+      internalID: -2248095731858118720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_63
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62973b1846a59280800000000000000
+      internalID: -9037134248624549269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_64
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 455
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7be45ae4cd34b70800000000000000
+      internalID: 8882185120443709364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_65
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e9e8648acd3a480800000000000000
+      internalID: -8889018624202858936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_66
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20428b1872e6eb70800000000000000
+      internalID: 8928072316794060846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_67
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4adca73c6c3abf0800000000000000
+      internalID: -314189006104582946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_68
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459562e4b5923f890800000000000000
+      internalID: -7425545888473917100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_69
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d1328b80e3fe9c0800000000000000
+      internalID: -3895826945482220252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_70
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4314815f67bb27980800000000000000
+      internalID: -8542559423575867084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_71
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dd620844c335840800000000000000
+      internalID: 5211575458703269123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_72
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b5c83f40cae230800000000000000
+      internalID: 3668956292934121418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_73
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8d9ea66b405c860800000000000000
+      internalID: 7549445531880773802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_74
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b1b0ca05cc9a100800000000000000
+      internalID: 119851511957887826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_75
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2324ab6fa2183b360800000000000000
+      internalID: 7184227852114084402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_76
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51bef5e39c814c80800000000000000
+      internalID: -8340230468066692771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_77
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 310
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086f076ccb90d8590800000000000000
+      internalID: -7670463883954293120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_78
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05497b717b97248e0800000000000000
+      internalID: -1710671081163484080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_79
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989974bab67c0ab60800000000000000
+      internalID: 7755417823581018505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_80
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8184f6b2ffabe650800000000000000
+      internalID: 6263293163775230349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_81
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f87a9389fde0dfa0800000000000000
+      internalID: -5777856666005767951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_82
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab01e72f6f73b560800000000000000
+      internalID: 7328341134049086370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_83
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77aa8968886302de0800000000000000
+      internalID: -1360027127464285577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_84
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9614bae43e23de00800000000000000
+      internalID: 1068248341427787422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_85
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3822bb0883041740800000000000000
+      internalID: 5121722559073757247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_86
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6a3c743316c6da0800000000000000
+      internalID: -5950274134788036870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_87
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffac5d636257a240800000000000000
+      internalID: 4802898114603954171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_88
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d06b76eaf2039bb0800000000000000
+      internalID: -4930593890408636206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_89
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9280ca604a57660800000000000000
+      internalID: 7382987512706771430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_90
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 165
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aedf7dd1e6490eb0800000000000000
+      internalID: -4753189995815117144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_91
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2117c502b4746a170800000000000000
+      internalID: 8189311360410874130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_92
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fd3acb9a9b70b80800000000000000
+      internalID: -8428564038935126142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_93
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4847d95509c4d0090800000000000000
+      internalID: -8066707174755306364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_94
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ae4fc5d7409e120800000000000000
+      internalID: 2443489209302182455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_95
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d679b0959aa77bf0800000000000000
+      internalID: -326604888606148909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_96
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b27c772350b2560800000000000000
+      internalID: 7289926136145324855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_97
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713f059483a6f23a0800000000000000
+      internalID: -6688010131641142505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_98
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b022ff859c725b0800000000000000
+      internalID: -5393120644678153438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_99
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8958551a3d56ae9a0800000000000000
+      internalID: -6203033577130195560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_100
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a317c1de248192940800000000000000
+      internalID: 5271771514538848570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_101
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a708f416524ca10800000000000000
+      internalID: 1928707640297290345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_102
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492c73ccd882f4530800000000000000
+      internalID: 3841333596652028564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alekzander-zagorulko-as-herb-055_103
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 20
+        width: 137
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0ae46ae443aaf70800000000000000
+      internalID: 9199222701259923692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
