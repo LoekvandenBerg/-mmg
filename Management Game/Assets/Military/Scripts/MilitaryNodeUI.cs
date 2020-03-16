@@ -3,22 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class MilitaryNodeUI : MonoBehaviour
 {
     [HideInInspector]
-    public Troop troop;
+    public Troop troop = null;
     [SerializeField]
-    private Image troopImg;
+    private Image troopImg = null;
     [SerializeField]
-    private Button trainButton;
+    private Button trainButton = null;
     [SerializeField]
     private TextMeshProUGUI troopNameText = null, haveTrainedAmountText = null;
+    [SerializeField]
+    private GameObject inputContainer = null;
+    private int amountTraining;
+
+    [Header("Timer")]
+    [SerializeField]
+    private GameObject timerContainer = null;
+    [SerializeField]
+    private Image timerBar = null;
+    private CountdownTimer countdown;
+
 
     public void Initialize(Troop troop)
     {
+        countdown = GetComponent<CountdownTimer>();
+
         this.troop = troop;
         troopNameText.text = troop.troopName;
+
+        timerBar.fillAmount = 0.0f;
+
+        timerContainer.SetActive(false);
 
         switch (troop.troopType)
         {
@@ -58,59 +76,69 @@ public class MilitaryNodeUI : MonoBehaviour
 
     public void OnTrainButton(TMP_InputField amountToTrain)
     {
-        if (troop.availabilityState == Troop.AvailabilityState.Unlocked && CanTrain())
+        amountTraining = int.Parse(amountToTrain.text);
+        if (troop.availabilityState == Troop.AvailabilityState.Unlocked && troop.CanTrain(int.Parse(amountToTrain.text)))
         {
             troop.trainedTime = 0.0f;
+            troop.requiredTrainTime *= int.Parse(amountToTrain.text);
 
-            switch (troop.troopType)
-            {
-                case Troop.TroopType.Infantry:
-                    MilitaryManager.Instance.infantryAmount += int.Parse(amountToTrain.text);
-                    haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.infantryAmount.ToString();
-                    break;
-                case Troop.TroopType.Cavalry:
-                    MilitaryManager.Instance.cavalryAmount += int.Parse(amountToTrain.text);
-                    haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.cavalryAmount.ToString();
-                    break;
-                case Troop.TroopType.Spear:
-                    MilitaryManager.Instance.spearAmount += int.Parse(amountToTrain.text);
-                    haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.spearAmount.ToString();
-                    break;
-                case Troop.TroopType.Archer:
-                    MilitaryManager.Instance.archerAmount += int.Parse(amountToTrain.text);
-                    haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.archerAmount.ToString();
-                    break;
-                default:
-                    break;
-            }
+            troopImg.color = Color.yellow;
+            trainButton.interactable = false;
+
+            StartTimerBar();
+
+            GameEvents.OnTrainingCompleted += CompletedTraining;
+
         }
     }
 
-    public bool CanTrain()
+    private void CompletedTraining(Troop troop)
     {
-        bool hasEnoughResources = false;
-        List<ResourceAmount> resourceAmounts = new List<ResourceAmount>();
-        for (int i = 0; i < troop.resourceCosts.Count; i++)
+        switch (troop.troopType)
         {
-            ResourceAmount currentAmount = Resource.Instance.GetResourceAmount(troop.resourceCosts[i].resourceType);
-            ResourceAmount cost = troop.resourceCosts[i];
-            if (currentAmount.resourceAmount >= cost.resourceAmount)
-            {
-                resourceAmounts.Add(currentAmount);
-            }
+            case Troop.TroopType.Infantry:
+                MilitaryManager.Instance.infantryAmount += amountTraining;
+                haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.infantryAmount.ToString();
+                break;
+            case Troop.TroopType.Cavalry:
+                MilitaryManager.Instance.cavalryAmount += amountTraining;
+                haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.cavalryAmount.ToString();
+                break;
+            case Troop.TroopType.Spear:
+                MilitaryManager.Instance.spearAmount += amountTraining;
+                haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.spearAmount.ToString();
+                break;
+            case Troop.TroopType.Archer:
+                MilitaryManager.Instance.archerAmount += amountTraining;
+                haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.archerAmount.ToString();
+                break;
+            default:
+                break;
         }
-        if (resourceAmounts.Count >= troop.resourceCosts.Count)
-        {
-            hasEnoughResources = true;
-            // resourceAmounts has the same order as resourceCosts
-            for (int i = 0; i < troop.resourceCosts.Count; i++)
-            {
-                resourceAmounts[i].resourceAmount -= troop.resourceCosts[i].resourceAmount;
-            }
-            troop.availabilityState = Troop.AvailabilityState.Training;
-            GameEvents.TrainingStarted(troop);
-            GameEvents.OnTimePassed += troop.CheckTrainingTime;
-        }
-        return hasEnoughResources;
+
+        GameEvents.OnTrainingCompleted -= CompletedTraining;
+    }
+
+    void StartTimerBar()
+    {
+        inputContainer.SetActive(false);
+        timerContainer.SetActive(true);
+
+        float timeLeft = troop.requiredTrainTime;
+        countdown.StartTimer(timeLeft);
+
+        timerBar.fillAmount = troop.trainedTime / troop.requiredTrainTime;
+
+        GameEvents.OnTrainingCompleted += StopTimerBar;
+    }
+
+    void StopTimerBar(Troop troop)
+    {
+        inputContainer.SetActive(true);
+        timerContainer.SetActive(false);
+
+        trainButton.interactable = true;
+
+        GameEvents.OnTrainingCompleted -= StopTimerBar;
     }
 }

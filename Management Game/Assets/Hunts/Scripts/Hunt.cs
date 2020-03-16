@@ -11,7 +11,8 @@ public class Hunt
     {
         Locked,
         Unlocked,
-        Hunting
+        Hunting,
+        Completed
     }
 
     public enum Rarity
@@ -40,16 +41,26 @@ public class Hunt
     {
         if (availabilityState == AvailabilityState.Locked)
         {
-            GameEvents.OnHuntCompleted += CheckHuntRequirements;
+            GameEvents.OnTechResearchCompleted += CheckHuntRequirements;
         }
     }
 
-    public void HuntCompleted()
+    public void HuntUnlock()
     {
-        GameEvents.HuntCompleted(huntRequirement.technology);
+        availabilityState = AvailabilityState.Unlocked;
+        GameEvents.HuntUnlocked(this);
+        GameEvents.OnTechResearchCompleted -= CheckHuntRequirements;
+        Debug.Log("Hunt unlocked " + huntName);
+    }
+
+    public void HuntComplete()
+    {
+        GameEvents.HuntCompleted(this);
         GameEvents.OnTimePassed -= CheckHuntingTime;
 
-        availabilityState = AvailabilityState.Unlocked;
+        GainHuntRewards();
+
+        availabilityState = AvailabilityState.Completed;
         Debug.Log(string.Format("Hunt was finished {0}", huntName));
     }
 
@@ -59,12 +70,12 @@ public class Hunt
         {
             if (huntedTime >= requiredHuntTime)
             {
-                HuntCompleted();
+                HuntComplete();
             }
         }
     }
 
-    //Fired when huntcompleted 
+    //Fired when huntcompleted for more hunts
     void CheckHuntRequirements(Technology completedTech)
     {
         if (availabilityState == AvailabilityState.Locked)
@@ -80,14 +91,34 @@ public class Hunt
         }
     }
 
-    public void HuntUnlock()
+    public bool CanHunt()
     {
-        availabilityState = AvailabilityState.Unlocked;
-        GameEvents.HuntUnlocked(this);
-        GameEvents.OnHuntCompleted -= CheckHuntRequirements;
-        Debug.Log("Hunt unlocked " + huntName);
-    }
+        bool canHunt = false;
 
+        switch (requiredTroopType)
+        {
+            case Troop.TroopType.Infantry:
+                if (MilitaryManager.Instance.infantryAmount >= neededArmyAmount)
+                    canHunt = true;
+                break;
+            case Troop.TroopType.Cavalry:
+                if (MilitaryManager.Instance.cavalryAmount >= neededArmyAmount)
+                    canHunt = true;
+                break;
+            case Troop.TroopType.Spear:
+                if (MilitaryManager.Instance.spearAmount >= neededArmyAmount)
+                    canHunt = true;
+                break;
+            case Troop.TroopType.Archer:
+                if (MilitaryManager.Instance.archerAmount >= neededArmyAmount)
+                    canHunt = true;
+                break;
+            default:
+                break;
+        }
+
+        return canHunt;
+    }
 }
 [Serializable]
 public class HuntRequirements

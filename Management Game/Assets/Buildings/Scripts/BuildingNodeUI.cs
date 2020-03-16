@@ -15,6 +15,12 @@ public class BuildingNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     private TextMeshProUGUI buildingNameText = null, levelText = null;
     private Color imgColor = new Color32(124, 17, 217, 255);
 
+    [Header("Timer")]
+    [SerializeField]
+    private GameObject timerContainer = null;
+    [SerializeField]
+    private Image timerBar = null;
+    private CountdownTimer countdown;
 
     public void Initialize(Building building)
     {
@@ -69,5 +75,26 @@ public class BuildingNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     public void OnPointerExit(PointerEventData eventData)
     {
         BuildingToolTip.Instance.Hide();
+    }
+
+    void StartTimerBar()
+    {
+        timerContainer.SetActive(true);
+
+        float timeLeft = building.requiredBuildingTime;
+        countdown.StartTimer(timeLeft);
+
+        timerBar.fillAmount = building.buildingTime / building.requiredBuildingTime;
+
+        GameEvents.OnBuildingCompleted += StopTimerBar;
+    }
+
+    void StopTimerBar(Building building)
+    {
+        timerContainer.SetActive(false);
+
+        //trainButton.interactable = true;
+
+        GameEvents.OnBuildingCompleted -= StopTimerBar;
     }
 }

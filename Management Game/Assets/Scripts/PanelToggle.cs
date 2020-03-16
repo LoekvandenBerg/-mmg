@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PanelToggle : MonoBehaviour
 {
-    private GameObject panelToToggle;
-    private bool currentToggle;
+    private GameObject panelToToggle = null;
+    private bool currentToggle = false;
     [SerializeField]
     private KeyCode keyToToggle;
 

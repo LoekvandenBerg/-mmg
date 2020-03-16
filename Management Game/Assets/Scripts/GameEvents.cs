@@ -17,14 +17,12 @@ public class GameEvents : MonoBehaviour
     public static Action<Building> OnBuildingCompleted;
     public static Action<Building> OnBuildingUnlocked;
 
-    public static Action<Building> OnBuildingCompleteTroop;
-
     public static Action<Troop> OnTrainingStarted;
-    public static Action<Building> OnTrainingCompleted;
+    public static Action<Troop> OnTrainingCompleted;
     public static Action<Troop> OnTroopUnlocked;
 
     public static Action<Hunt> OnHuntStarted;
-    public static Action<Technology> OnHuntCompleted;
+    public static Action<Hunt> OnHuntCompleted;
     public static Action<Hunt> OnHuntUnlocked;
 
     // TECH EVENTS
@@ -33,6 +31,7 @@ public class GameEvents : MonoBehaviour
     {
         OnTechResearchStarted?.Invoke(tech);
     }
+    //should fire when tech completes to unlock something
     public static void TechResearchCompleted(Technology tech)
     {
         OnTechResearchCompleted?.Invoke(tech);
@@ -48,6 +47,7 @@ public class GameEvents : MonoBehaviour
     {
         OnBuildingStarted?.Invoke(building);
     }
+    //should fire when building completes to unlock something
     public static void BuildingCompleted(Building building)
     {
         OnBuildingCompleted?.Invoke(building);
@@ -63,9 +63,9 @@ public class GameEvents : MonoBehaviour
     {
         OnTrainingStarted?.Invoke(troop);
     }
-    public static void TrainingCompleted(Building building)
+    public static void TrainingCompleted(Troop troop)
     {
-        OnTrainingCompleted?.Invoke(building);
+        OnTrainingCompleted?.Invoke(troop);
     }
     public static void TroopUnlocked(Troop troop)
     {
@@ -79,9 +79,10 @@ public class GameEvents : MonoBehaviour
     {
         OnHuntStarted?.Invoke(hunt);
     }
-    public static void HuntCompleted(Technology tech)
+    //should fire when hunt completes to gain rewards
+    public static void HuntCompleted(Hunt hunt)
     {
-        OnHuntCompleted?.Invoke(tech);
+        OnHuntCompleted?.Invoke(hunt);
     }
     public static void HuntUnlocked(Hunt hunt)
     {
@@ -99,4 +100,9 @@ public class GameEvents : MonoBehaviour
     {
         OnTimePassed?.Invoke();
     }
+
+    //public static void TimerDone(Troop troop)
+    //{
+    //    OnTrainingCompleted?.Invoke(troop);
+    //}
 }

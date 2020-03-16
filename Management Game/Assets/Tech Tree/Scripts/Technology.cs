@@ -46,11 +46,11 @@ public class Technology
     public void Learn()
     {
         GameEvents.TechResearchCompleted(this);
-        //GameEvents.OnTurnPassed -= NewTurn;
         GameEvents.OnTimePassed -= CheckTime;
 
         availabilityState = AvailabilityState.Learned;
         Debug.Log("Tech was learned " + this.techName);
+        //GameEvents.OnTurnPassed -= NewTurn;
     }
 
     //public void NewTurn()

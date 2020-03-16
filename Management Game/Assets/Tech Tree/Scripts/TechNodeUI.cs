@@ -12,13 +12,20 @@ public class TechNodeUI : MonoBehaviour, IPointerEnterHandler,IPointerExitHandle
     [SerializeField]
     private TextMeshProUGUI techTitleText = null;
     [HideInInspector]
-    public Technology technology;
+    public Technology technology = null;
     [SerializeField]
     private Image nodeImg = null;
     [SerializeField]
     private TechNodeConnector connector = null;
     [SerializeField]
     private Outline outline = null;
+
+    [Header("Timer")]
+    [SerializeField]
+    private GameObject timerContainer = null;
+    [SerializeField]
+    private Image timerBar = null;
+    private CountdownTimer countdown;
 
     public void Initialize(Technology tech)
     {
@@ -79,5 +86,26 @@ public class TechNodeUI : MonoBehaviour, IPointerEnterHandler,IPointerExitHandle
     public void OnPointerExit(PointerEventData eventData)
     {
         TechToolTip.Instance.Hide();
+    }
+
+    void StartTimerBar()
+    {
+        timerContainer.SetActive(true);
+
+        float timeLeft = technology.requiredResearchTime;
+        countdown.StartTimer(timeLeft);
+
+        timerBar.fillAmount = technology.researchedTime / technology.requiredResearchTime;
+
+        GameEvents.OnTechResearchCompleted += StopTimerBar;
+    }
+
+    void StopTimerBar(Technology tech)
+    {
+        timerContainer.SetActive(false);
+
+        //trainButton.interactable = true;
+
+        GameEvents.OnTechResearchCompleted -= StopTimerBar;
     }
 }

@@ -9,11 +9,18 @@ public class HuntNodeUI : MonoBehaviour
     [HideInInspector]
     public Hunt hunt;
     [SerializeField]
-    private Image huntImg;
+    private Image huntImg = null;
     [SerializeField]
-    private Button huntButton;
+    private Button huntButton = null;
     [SerializeField]
     private TextMeshProUGUI requiredTroopAmountText = null, huntNameText = null;
+
+    [Header("Timer")]
+    [SerializeField]
+    private GameObject timerContainer = null;
+    [SerializeField]
+    private Image timerBar = null;
+    private CountdownTimer countdown;
 
     public void Initialize(Hunt hunt)
     {
@@ -40,38 +47,100 @@ public class HuntNodeUI : MonoBehaviour
 
     void OnHuntButton()
     {
-        if (hunt.availabilityState == Hunt.AvailabilityState.Unlocked && CanHunt())
+        if (hunt.availabilityState == Hunt.AvailabilityState.Unlocked && hunt.CanHunt())
         {
-            hunt.huntedTime = 0.0f;
+            hunt.huntedTime = 0.0f; 
+            huntImg.color = Color.cyan;
+            huntButton.interactable = false;
+            GameEvents.OnHuntCompleted += CompletedHunt;
         }
     }
 
-    bool CanHunt()
+    public void CompletedHunt(Hunt hunt)
     {
-        bool canHunt = false;
+        GameEvents.OnHuntCompleted -= CompletedHunt;
+        Destroy(gameObject, 1.5f);
+    }
 
-        switch (hunt.requiredTroopType)
+    public void GainHuntRewards()
+    {
+        List<ResourceAmount> resourceLootList = CalculateRandomResourceLoot();
+
+        for (int i = 0; i < resourceLootList.Count; i++)
         {
-            case Troop.TroopType.Infantry:
-                if (MilitaryManager.Instance.infantryAmount >= hunt.neededArmyAmount)
-                    canHunt = true;
-                break;
-            case Troop.TroopType.Cavalry:
-                if (MilitaryManager.Instance.cavalryAmount >= hunt.neededArmyAmount)
-                    canHunt = true;
-                break;
-            case Troop.TroopType.Spear:
-                if (MilitaryManager.Instance.spearAmount >= hunt.neededArmyAmount)
-                    canHunt = true;
-                break;
-            case Troop.TroopType.Archer:
-                if (MilitaryManager.Instance.archerAmount >= hunt.neededArmyAmount)
-                    canHunt = true;
-                break;
-            default:
-                break;
+            switch (resourceLootList[i].resourceType)
+            {
+                case Resource.ResourceTypes.Gold:
+                    Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount += resourceLootList[i].resourceAmount;
+                    break;
+                case Resource.ResourceTypes.Steel:
+                    Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Steel).resourceAmount += resourceLootList[i].resourceAmount;
+                    break;
+                case Resource.ResourceTypes.Wood:
+                    Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Water).resourceAmount += resourceLootList[i].resourceAmount;
+                    break;
+                case Resource.ResourceTypes.Water:
+                    Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Food).resourceAmount += resourceLootList[i].resourceAmount;
+                    break;
+                case Resource.ResourceTypes.Food:
+                    Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Wood).resourceAmount += resourceLootList[i].resourceAmount;
+                    break;
+                default:
+                    break;
+            }
         }
+    }
 
-        return canHunt;
+    public List<ResourceAmount> CalculateRandomResourceLoot()
+    {
+        List<ResourceAmount> resourceLootList = new List<ResourceAmount>();
+
+        int goldAmount = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount + Random.Range(25, 101);
+        int foodAmount = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount + Random.Range(25, 101);
+        //int steelAmount = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount + Random.Range(25, 101);
+        int woodAmount = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount + Random.Range(25, 101);
+        int waterAmount = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount + Random.Range(25, 101);
+
+        ResourceAmount goldLoot = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold);
+        goldLoot.resourceAmount = goldAmount;
+        ResourceAmount foodLoot = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Food);
+        goldLoot.resourceAmount = foodAmount;
+        //ResourceAmount steelLoot = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold);
+        //goldLoot.resourceAmount = steelAmount;
+        ResourceAmount woodLoot = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Wood);
+        goldLoot.resourceAmount = woodAmount;
+        ResourceAmount waterLoot = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Water);
+        goldLoot.resourceAmount = waterAmount;
+
+        resourceLootList.Add(goldLoot);
+        resourceLootList.Add(foodLoot);
+        resourceLootList.Add(woodLoot);
+        resourceLootList.Add(waterLoot);
+        //resourceLootList.Add(steelLoot);
+
+        return resourceLootList;
+    }
+
+    void StartTimerBar()
+    {
+        huntImg.gameObject.SetActive(false);
+        timerContainer.SetActive(true);
+
+        float timeLeft = hunt.requiredHuntTime;
+        countdown.StartTimer(timeLeft);
+
+        timerBar.fillAmount = hunt.huntedTime / hunt.requiredHuntTime;
+
+        GameEvents.OnHuntCompleted += StopTimerBar;
+    }
+
+    void StopTimerBar(Hunt hunt)
+    {
+        huntImg.gameObject.SetActive(true);
+        timerContainer.SetActive(false);
+
+        huntButton.interactable = true;
+
+        GameEvents.OnHuntCompleted -= StopTimerBar;
     }
 }

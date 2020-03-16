@@ -8,7 +8,7 @@ public class BuildingToolTip : MonoBehaviour
 {
     public static BuildingToolTip Instance { get; private set; }
     [SerializeField]
-    private TextMeshProUGUI buildingCostText, buildingDescriptionText, buildingProductionText, requirementText;
+    private TextMeshProUGUI buildingCostText = null, buildingDescriptionText = null, buildingProductionText = null, requirementText = null;
 
     private void LateUpdate()
     {

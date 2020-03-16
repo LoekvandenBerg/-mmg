@@ -35,7 +35,7 @@ public class Troop
 
     public void Train()
     {
-        GameEvents.TrainingCompleted(troopRequirement.building);
+        GameEvents.TrainingCompleted(this);
         GameEvents.OnTimePassed -= CheckTrainingTime;
 
         availabilityState = AvailabilityState.Unlocked;
@@ -57,7 +57,7 @@ public class Troop
     {
         availabilityState = AvailabilityState.Unlocked;
         GameEvents.TroopUnlocked(this);
-        GameEvents.OnTrainingCompleted -= CheckTrainingRequirements;
+        GameEvents.OnBuildingCompleted -= CheckTrainingRequirements;
         Debug.Log("Troop unlocked " + troopName);
     }
 
@@ -75,6 +75,34 @@ public class Troop
                 }
             }
         }
+    }
+
+    public bool CanTrain(int amountToTrain)
+    {
+        bool hasEnoughResources = false;
+        List<ResourceAmount> resourceAmounts = new List<ResourceAmount>();
+        for (int i = 0; i < resourceCosts.Count; i++)
+        {
+            ResourceAmount currentAmount = Resource.Instance.GetResourceAmount(resourceCosts[i].resourceType);
+            ResourceAmount cost = resourceCosts[i];
+            if (currentAmount.resourceAmount >= (cost.resourceAmount * amountToTrain))
+            {
+                resourceAmounts.Add(currentAmount);
+            }
+        }
+        if (resourceAmounts.Count >= resourceCosts.Count)
+        {
+            hasEnoughResources = true;
+            // resourceAmounts has the same order as resourceCosts
+            for (int i = 0; i < resourceCosts.Count; i++)
+            {
+                resourceAmounts[i].resourceAmount -= (resourceCosts[i].resourceAmount * amountToTrain);
+            }
+            availabilityState = Troop.AvailabilityState.Training;
+            GameEvents.TrainingStarted(this);
+            GameEvents.OnTimePassed += CheckTrainingTime;
+        }
+        return hasEnoughResources;
     }
 }
 
