@@ -69,8 +69,10 @@
     <Compile Include="Assets\Buildings\Scripts\BuildingNodeUI.cs" />
     <Compile Include="Assets\Buildings\Scripts\BuildingToolTip.cs" />
     <Compile Include="Assets\Hunts\Scripts\Hunt.cs" />
+    <Compile Include="Assets\Hunts\Scripts\HuntDatabase.cs" />
     <Compile Include="Assets\Hunts\Scripts\HuntListUI.cs" />
     <Compile Include="Assets\Hunts\Scripts\HuntNodeUI.cs" />
+    <Compile Include="Assets\Hunts\Scripts\HuntReward.cs" />
     <Compile Include="Assets\Military\Scripts\MilitaryListUI.cs" />
     <Compile Include="Assets\Military\Scripts\MilitaryManager.cs" />
     <Compile Include="Assets\Military\Scripts\MilitaryNodeUI.cs" />

@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class HuntListUI : MonoBehaviour
 {
+    [SerializeField]
+    private Transform huntPanel = null;
+    [SerializeField]
+    private HuntNodeUI huntHolderPrefab = null;
+    private List<Hunt> hunts = new List<Hunt>();
+    [HideInInspector]
+    public List<HuntNodeUI> huntNodes = new List<HuntNodeUI>();
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        hunts = FindObjectOfType<HuntDatabase>().hunts;
+        BuildList();
     }
 
-    // Update is called once per frame
-    void Update()
+    void BuildList()
     {
-        
+        for (int i = 0; i < hunts.Count; i++)
+        {
+            HuntNodeUI militaryHolderUIObj = Instantiate(huntHolderPrefab, huntPanel);
+            huntNodes.Add(huntHolderPrefab);
+            huntHolderPrefab.Initialize(hunts[i]);
+        }
     }
 }

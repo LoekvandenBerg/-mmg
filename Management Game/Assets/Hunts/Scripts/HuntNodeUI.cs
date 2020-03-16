@@ -14,6 +14,9 @@ public class HuntNodeUI : MonoBehaviour
     private Button huntButton = null;
     [SerializeField]
     private TextMeshProUGUI requiredTroopAmountText = null, huntNameText = null;
+    [SerializeField]
+    private HuntReward huntReward;
+    private Hunt.Rarity rarity;
 
     [Header("Timer")]
     [SerializeField]
@@ -25,6 +28,10 @@ public class HuntNodeUI : MonoBehaviour
     public void Initialize(Hunt hunt)
     {
         this.hunt = hunt;
+        huntReward = GetComponent<HuntReward>();
+        rarity = hunt.rarity;
+
+        requiredTroopAmountText.text = string.Format("Needed: {0} {1}", hunt.neededArmyAmount, hunt.requiredTroopType.ToString());
         huntNameText.text = hunt.huntName;
 
         if (hunt.availabilityState == Hunt.AvailabilityState.Locked)
@@ -45,7 +52,7 @@ public class HuntNodeUI : MonoBehaviour
         }
     }
 
-    void OnHuntButton()
+    public void OnHuntButton()
     {
         if (hunt.availabilityState == Hunt.AvailabilityState.Unlocked && hunt.CanHunt())
         {
@@ -58,67 +65,9 @@ public class HuntNodeUI : MonoBehaviour
 
     public void CompletedHunt(Hunt hunt)
     {
+        huntReward.GainHuntRewards(rarity);
         GameEvents.OnHuntCompleted -= CompletedHunt;
         Destroy(gameObject, 1.5f);
-    }
-
-    public void GainHuntRewards()
-    {
-        List<ResourceAmount> resourceLootList = CalculateRandomResourceLoot();
-
-        for (int i = 0; i < resourceLootList.Count; i++)
-        {
-            switch (resourceLootList[i].resourceType)
-            {
-                case Resource.ResourceTypes.Gold:
-                    Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount += resourceLootList[i].resourceAmount;
-                    break;
-                case Resource.ResourceTypes.Steel:
-                    Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Steel).resourceAmount += resourceLootList[i].resourceAmount;
-                    break;
-                case Resource.ResourceTypes.Wood:
-                    Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Water).resourceAmount += resourceLootList[i].resourceAmount;
-                    break;
-                case Resource.ResourceTypes.Water:
-                    Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Food).resourceAmount += resourceLootList[i].resourceAmount;
-                    break;
-                case Resource.ResourceTypes.Food:
-                    Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Wood).resourceAmount += resourceLootList[i].resourceAmount;
-                    break;
-                default:
-                    break;
-            }
-        }
-    }
-
-    public List<ResourceAmount> CalculateRandomResourceLoot()
-    {
-        List<ResourceAmount> resourceLootList = new List<ResourceAmount>();
-
-        int goldAmount = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount + Random.Range(25, 101);
-        int foodAmount = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount + Random.Range(25, 101);
-        //int steelAmount = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount + Random.Range(25, 101);
-        int woodAmount = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount + Random.Range(25, 101);
-        int waterAmount = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount + Random.Range(25, 101);
-
-        ResourceAmount goldLoot = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold);
-        goldLoot.resourceAmount = goldAmount;
-        ResourceAmount foodLoot = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Food);
-        goldLoot.resourceAmount = foodAmount;
-        //ResourceAmount steelLoot = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold);
-        //goldLoot.resourceAmount = steelAmount;
-        ResourceAmount woodLoot = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Wood);
-        goldLoot.resourceAmount = woodAmount;
-        ResourceAmount waterLoot = Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Water);
-        goldLoot.resourceAmount = waterAmount;
-
-        resourceLootList.Add(goldLoot);
-        resourceLootList.Add(foodLoot);
-        resourceLootList.Add(woodLoot);
-        resourceLootList.Add(waterLoot);
-        //resourceLootList.Add(steelLoot);
-
-        return resourceLootList;
     }
 
     void StartTimerBar()

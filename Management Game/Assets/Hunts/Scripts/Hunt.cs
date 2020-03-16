@@ -31,7 +31,7 @@ public class Hunt
     public Troop.TroopType requiredTroopType;
     public float huntedTime;
     public float requiredHuntTime;
-    public List<Resource> resourcesToLoot;
+    public List<ResourceAmount> resourcesToLoot;
     public HuntRequirements huntRequirement;
 
     //public Loot[] loot;
@@ -57,8 +57,6 @@ public class Hunt
     {
         GameEvents.HuntCompleted(this);
         GameEvents.OnTimePassed -= CheckHuntingTime;
-
-        GainHuntRewards();
 
         availabilityState = AvailabilityState.Completed;
         Debug.Log(string.Format("Hunt was finished {0}", huntName));

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5124940831183965258}
   - component: {fileID: 1283815382501813787}
   - component: {fileID: 1517678593}
+  - component: {fileID: 7352645825797540858}
   m_Layer: 0
   m_Name: Database
   m_TagString: Untagged
@@ -218,4 +219,67 @@ MonoBehaviour:
     - resourceType: 4
       resourceAmount: 5
     trainedTime: 0
-    requiredTrainTime: 0
+    requiredTrainTime: 5
+--- !u!114 &7352645825797540858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5124940831183965259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4274e6902e5de79448e98a43d8adee0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hunts:
+  - availabilityState: 1
+    rarity: 0
+    huntName: Boar Hunt
+    neededArmyAmount: 5
+    requiredTroopType: 0
+    huntedTime: 0
+    requiredHuntTime: 5
+    resourcesToLoot:
+    - resourceType: 4
+      resourceAmount: 0
+    huntRequirement:
+      technology:
+        techName: 
+        availabilityState: 0
+        techDescription: 
+        techImage: {fileID: 0}
+        techRequirements: []
+        resourceCosts: []
+        techModifiers: []
+        researchedTurns: 0
+        requiredResearchTurns: 0
+        researchedTime: 0
+        requiredResearchTime: 0
+        techUIColor: {r: 0, g: 0, b: 0, a: 0}
+      completed: 0
+  - availabilityState: 1
+    rarity: 1
+    huntName: Minor Wyvern Hunt
+    neededArmyAmount: 10
+    requiredTroopType: 0
+    huntedTime: 0
+    requiredHuntTime: 10
+    resourcesToLoot:
+    - resourceType: 0
+      resourceAmount: 0
+    huntRequirement:
+      technology:
+        techName: 
+        availabilityState: 0
+        techDescription: 
+        techImage: {fileID: 0}
+        techRequirements: []
+        resourceCosts: []
+        techModifiers: []
+        researchedTurns: 0
+        requiredResearchTurns: 0
+        researchedTime: 0
+        requiredResearchTime: 0
+        techUIColor: {r: 0, g: 0, b: 0, a: 0}
+      completed: 0
