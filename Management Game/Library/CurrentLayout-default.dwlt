@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 709, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 118
+  controlID: 119
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,10 +137,10 @@ MonoBehaviour:
     y: 0
     width: 1559
     height: 947
-  m_MinSize: {x: 433, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 119
+  controlID: 120
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -213,8 +213,8 @@ MonoBehaviour:
     y: 0
     width: 520
     height: 413
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 413
     width: 1559
     height: 534
-  m_MinSize: {x: 433, y: 271}
+  m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 120
+  controlID: 121
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -264,15 +264,15 @@ MonoBehaviour:
     y: 0
     width: 1189
     height: 534
-  m_MinSize: {x: 201, y: 221}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
   - {fileID: 20}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -649,23 +649,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 40fbffff
-      m_LastClickedID: -1216
-      m_ExpandedIDs: 12c9ffff5ac9ffff82f9ffffb2f9ffffd4f9ffff12faffff3efaffff4cfbffff90340000a6340000d6340000e8340000fe3400001235000026350000
+      m_SelectedIDs: 8a300000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6cfbfffffc3400003e360000a4360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: BuildingMenuImage (1)
-        m_OriginalName: BuildingMenuImage (1)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -2100
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -729,7 +729,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 32364
+  m_LastSelectedObjectID: 21158
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -769,7 +769,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Hunts/Prefabs
+    - Assets/Military/Scripts
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -781,7 +781,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 18220100
     m_LastClickedID: 74264
-    m_ExpandedIDs: 00000000ae380000b0380000b2380000b4380000b6380000b8380000ba380000bc380000be380000c0380000c2380000c4380000c6380000
+    m_ExpandedIDs: 00000000ae390000b0390000b2390000b4390000b6390000b8390000ba390000bc390000be390000c0390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -806,24 +806,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 8}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000ae380000b0380000b2380000b4380000b6380000b8380000ba380000bc380000be380000c0380000c2380000c4380000c6380000e4380000e83800005a3a0000
+    m_ExpandedIDs: ffffffff00000000ae390000b0390000b2390000b4390000b6390000b8390000ba390000bc390000be390000c0390000da390000dc390000e2390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: HuntNode
+      m_OriginalName: HuntNode
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 14184
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 

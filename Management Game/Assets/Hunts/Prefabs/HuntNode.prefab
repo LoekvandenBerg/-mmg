@@ -255,8 +255,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeLeft: 0
+  timeDone: 0
   stop: 1
   timeLeftText: {fileID: 8428269560457403958}
+  timerBar: {fileID: 9214555405581611588}
 --- !u!114 &5377829240548597389
 MonoBehaviour:
   m_ObjectHideFlags: 0

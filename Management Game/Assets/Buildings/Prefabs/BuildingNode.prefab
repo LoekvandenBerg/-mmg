@@ -414,6 +414,8 @@ MonoBehaviour:
   buildingImg: {fileID: 8548772576674614500}
   buildingNameText: {fileID: 8548772575860747821}
   levelText: {fileID: 8548772574647552617}
+  timerContainer: {fileID: 0}
+  timerBar: {fileID: 0}
 --- !u!114 &5260524492665056281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,8 +429,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeLeft: 0
+  timeDone: 0
   stop: 1
   timeLeftText: {fileID: 5750180186883320091}
+  timerBar: {fileID: 4961605296527934825}
 --- !u!114 &8548772576674614502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -672,6 +676,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 4625020345355364041}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4961605296527934825 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 357040860373902240, guid: 4983d8853a44d93458e1fb7f33b79ab7,
+    type: 3}
+  m_PrefabInstance: {fileID: 4625020345355364041}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5750180186883320091 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1145006214392254418, guid: 4983d8853a44d93458e1fb7f33b79ab7,

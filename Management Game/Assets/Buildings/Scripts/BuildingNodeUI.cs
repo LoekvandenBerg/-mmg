@@ -24,6 +24,8 @@ public class BuildingNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 
     public void Initialize(Building building)
     {
+        countdown = GetComponent<CountdownTimer>();
+
         this.building = building;
         buildingNameText.text = building.buildingName;
         levelText.text = "Level: " + building.level.ToString();
@@ -42,6 +44,9 @@ public class BuildingNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         {
             building.buildingTime = 0.0f;
             buildingImg.color = Color.cyan;
+
+            StartTimerBar();
+
             GameEvents.OnBuildingCompleted += CompletedBuilding;
         }
     }
@@ -80,11 +85,11 @@ public class BuildingNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     void StartTimerBar()
     {
         timerContainer.SetActive(true);
+        timerBar.fillAmount = building.buildingTime / building.requiredBuildingTime;
 
         float timeLeft = building.requiredBuildingTime;
-        countdown.StartTimer(timeLeft);
-
-        timerBar.fillAmount = building.buildingTime / building.requiredBuildingTime;
+        float timeDone = building.buildingTime;
+        countdown.StartTimer(timeLeft, timeDone);
 
         GameEvents.OnBuildingCompleted += StopTimerBar;
     }

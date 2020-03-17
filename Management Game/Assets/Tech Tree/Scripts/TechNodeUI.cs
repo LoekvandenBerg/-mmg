@@ -29,6 +29,8 @@ public class TechNodeUI : MonoBehaviour, IPointerEnterHandler,IPointerExitHandle
 
     public void Initialize(Technology tech)
     {
+        countdown = GetComponent<CountdownTimer>();
+
         technology = tech;
         techTitleText.text = tech.techName;
         techImg.sprite = tech.techImage;
@@ -48,6 +50,9 @@ public class TechNodeUI : MonoBehaviour, IPointerEnterHandler,IPointerExitHandle
         {
             technology.researchedTime = 0.0f;
             nodeImg.color = Color.blue;
+
+            StartTimerBar();
+
             GameEvents.OnTechResearchCompleted += CompletedResearch;
         }
     }
@@ -92,10 +97,11 @@ public class TechNodeUI : MonoBehaviour, IPointerEnterHandler,IPointerExitHandle
     {
         timerContainer.SetActive(true);
 
-        float timeLeft = technology.requiredResearchTime;
-        countdown.StartTimer(timeLeft);
-
         timerBar.fillAmount = technology.researchedTime / technology.requiredResearchTime;
+
+        float timeLeft = technology.requiredResearchTime;
+        float timeDone = technology.researchedTime;
+        countdown.StartTimer(timeLeft, timeDone);
 
         GameEvents.OnTechResearchCompleted += StopTimerBar;
     }

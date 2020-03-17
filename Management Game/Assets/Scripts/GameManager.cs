@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 
     void GainResources()
     {
-        //Resource.ResourceTypes.Gold.resourceAmount += (1 + goldToGet);
+        Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Gold).resourceAmount += (1 + goldToGet);
         Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Water).resourceAmount += (2 + waterToGet);
         Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Food).resourceAmount += (3 + foodToGet);
         Resource.Instance.GetResourceAmount(Resource.ResourceTypes.Wood).resourceAmount += (1 + woodToGet);

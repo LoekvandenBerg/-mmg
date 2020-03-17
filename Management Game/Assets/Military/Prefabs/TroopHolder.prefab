@@ -248,8 +248,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeLeft: 300
+  timeDone: 0
   stop: 0
   timeLeftText: {fileID: 7167174079225871426}
+  timerBar: {fileID: 7521430337762676784}
 --- !u!1 &4793280789991729377
 GameObject:
   m_ObjectHideFlags: 0

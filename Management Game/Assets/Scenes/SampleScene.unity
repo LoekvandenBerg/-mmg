@@ -156,6 +156,10 @@ PrefabInstance:
       propertyPath: troops.Array.data[0].availabilityState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1517678593, guid: bb8ca6163fa3f8f44bcc16ade408976e, type: 3}
+      propertyPath: troops.Array.data[0].requiredTrainTime
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5124940831183965259, guid: bb8ca6163fa3f8f44bcc16ade408976e,
         type: 3}
       propertyPath: m_Name
@@ -215,6 +219,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352645825797540858, guid: bb8ca6163fa3f8f44bcc16ade408976e,
+        type: 3}
+      propertyPath: hunts.Array.data[0].requiredHuntTime
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb8ca6163fa3f8f44bcc16ade408976e, type: 3}
@@ -2129,7 +2138,7 @@ MonoBehaviour:
   - resourceType: 3
     resourceAmount: 0
   - resourceType: 4
-    resourceAmount: 0
+    resourceAmount: 50
 --- !u!1 &1607463353
 GameObject:
   m_ObjectHideFlags: 0
@@ -3246,7 +3255,7 @@ MonoBehaviour:
     Build this town into a fine city.
 
     By researching
-    technologies, build beautifull buildings and build devastating armies!
+    technologies, build beautifull buildings and train devastating armies!
 
 
     Goodluck
@@ -5612,7 +5621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   huntPanel: {fileID: 2054088028954834758}
-  huntHolderPrefab: {fileID: 5719485738849883056, guid: 69b936ac669694d4a85eb9ac69c5d976,
+  huntHolderPrefab: {fileID: 5719485738849883056, guid: d92ac1a322963254ea3506dfda38bf7b,
     type: 3}
   huntNodes: []
 --- !u!224 &4660922401717832790

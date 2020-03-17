@@ -115,6 +115,8 @@ public class Hunt
                 break;
         }
 
+        availabilityState = AvailabilityState.Hunting;
+        GameEvents.OnTimePassed += CheckHuntingTime;
         return canHunt;
     }
 }

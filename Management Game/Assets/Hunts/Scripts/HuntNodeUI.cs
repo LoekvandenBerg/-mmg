@@ -27,6 +27,8 @@ public class HuntNodeUI : MonoBehaviour
 
     public void Initialize(Hunt hunt)
     {
+        countdown = GetComponent<CountdownTimer>();
+
         this.hunt = hunt;
         huntReward = GetComponent<HuntReward>();
         rarity = hunt.rarity;
@@ -59,6 +61,9 @@ public class HuntNodeUI : MonoBehaviour
             hunt.huntedTime = 0.0f; 
             huntImg.color = Color.cyan;
             huntButton.interactable = false;
+
+            StartTimerBar();
+
             GameEvents.OnHuntCompleted += CompletedHunt;
         }
     }
@@ -66,6 +71,7 @@ public class HuntNodeUI : MonoBehaviour
     public void CompletedHunt(Hunt hunt)
     {
         huntReward.GainHuntRewards(rarity);
+        huntImg.color = Color.green;
         GameEvents.OnHuntCompleted -= CompletedHunt;
         Destroy(gameObject, 1.5f);
     }
@@ -74,11 +80,12 @@ public class HuntNodeUI : MonoBehaviour
     {
         huntImg.gameObject.SetActive(false);
         timerContainer.SetActive(true);
+        timerBar.fillAmount = hunt.huntedTime / hunt.requiredHuntTime;
 
         float timeLeft = hunt.requiredHuntTime;
-        countdown.StartTimer(timeLeft);
+        float timeDone = hunt.huntedTime;
 
-        timerBar.fillAmount = hunt.huntedTime / hunt.requiredHuntTime;
+        countdown.StartTimer(timeLeft, timeDone);
 
         GameEvents.OnHuntCompleted += StopTimerBar;
     }

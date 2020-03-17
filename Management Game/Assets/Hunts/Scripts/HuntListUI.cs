@@ -23,9 +23,9 @@ public class HuntListUI : MonoBehaviour
     {
         for (int i = 0; i < hunts.Count; i++)
         {
-            HuntNodeUI militaryHolderUIObj = Instantiate(huntHolderPrefab, huntPanel);
-            huntNodes.Add(huntHolderPrefab);
-            huntHolderPrefab.Initialize(hunts[i]);
+            HuntNodeUI huntHolderUIObj = Instantiate(huntHolderPrefab, huntPanel);
+            huntNodes.Add(huntHolderUIObj);
+            huntHolderUIObj.Initialize(hunts[i]);
         }
     }
 }

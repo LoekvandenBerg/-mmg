@@ -124,10 +124,11 @@ public class MilitaryNodeUI : MonoBehaviour
         inputContainer.SetActive(false);
         timerContainer.SetActive(true);
 
-        float timeLeft = troop.requiredTrainTime;
-        countdown.StartTimer(timeLeft);
-
         timerBar.fillAmount = troop.trainedTime / troop.requiredTrainTime;
+
+        float timeLeft = troop.requiredTrainTime;
+        float timeDone = troop.trainedTime;
+        countdown.StartTimer(timeLeft, timeDone);
 
         GameEvents.OnTrainingCompleted += StopTimerBar;
     }
