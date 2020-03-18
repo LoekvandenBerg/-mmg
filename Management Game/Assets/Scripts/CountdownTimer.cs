@@ -28,7 +28,7 @@ public class CountdownTimer : MonoBehaviour
         timeLeft = from;
         timeDone = done;
         Update();
-        StartCoroutine(TimerUpdateCoroutine());
+        StartCoroutine(TimerUpdateCoroutine(from));
     }
 
     void Update()
@@ -55,12 +55,12 @@ public class CountdownTimer : MonoBehaviour
         //        fraction = (timeLeft * 100) % 100;
     }
 
-    private IEnumerator TimerUpdateCoroutine()
+    private IEnumerator TimerUpdateCoroutine(float maxTime)
     {
         while (!stop)
         {
             timeLeftText.text = string.Format("{0:0}:{1:00}", minutes, seconds);
-            timerBar.fillAmount = timeDone / timeLeft;
+            timerBar.fillAmount = timeDone / maxTime;
 
             yield return new WaitForSeconds(0.2f);
         }

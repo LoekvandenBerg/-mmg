@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TechTreeUI : MonoBehaviour
 {
+    public static TechTreeUI Instance { get; private set; }
+
     private List<TechGroup> techGroups = null;
     [SerializeField]
     private GameObject techColumn = null;
@@ -12,6 +14,15 @@ public class TechTreeUI : MonoBehaviour
     [SerializeField]
     private Transform techPanel = null;
     private List<TechNodeUI> techNodes = new List<TechNodeUI>();
+
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+            Destroy(gameObject);
+        else
+            Instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +49,22 @@ public class TechTreeUI : MonoBehaviour
         for (int i = 0; i < techNodes.Count; i++)
         {
             techNodes[i].Connect(techNodes, techPanel);
+        }
+    }
+
+    public void LockAllTechButtons()
+    {
+        foreach (TechNodeUI node in techNodes)
+        {
+            node.researchButton.interactable = false;
+        }
+    }
+
+    public void UnlockAllTechButtons()
+    {
+        foreach (TechNodeUI node in techNodes)
+        {
+            node.researchButton.interactable = true;
         }
     }
 }

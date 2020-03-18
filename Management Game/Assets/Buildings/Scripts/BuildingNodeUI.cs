@@ -14,6 +14,7 @@ public class BuildingNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     [SerializeField]
     private TextMeshProUGUI buildingNameText = null, levelText = null;
     private Color imgColor = new Color32(124, 17, 217, 255);
+    public Button buildButton;
 
     [Header("Timer")]
     [SerializeField]
@@ -35,7 +36,7 @@ public class BuildingNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitH
             buildingImg.color = Color.grey;
             GameEvents.OnBuildingUnlocked += UnlockedBuilding;
         }
-        GetComponent<Button>().onClick.AddListener(TryBuilding);
+        buildButton.onClick.AddListener(TryBuilding);
     }
 
     public void TryBuilding()
@@ -48,12 +49,14 @@ public class BuildingNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitH
             StartTimerBar();
 
             GameEvents.OnBuildingCompleted += CompletedBuilding;
+            BuildingListUI.Instance.LockAllBuildingButtons();
         }
     }
 
     public void CompletedBuilding(Building building)
     {
         UpdateLevelUI();
+        BuildingListUI.Instance.UnlockAllBuildingButtons();
         GameEvents.OnBuildingCompleted -= CompletedBuilding;
     }
 

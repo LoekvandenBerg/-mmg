@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BuildingListUI : MonoBehaviour
 {
+    public static BuildingListUI Instance { get; private set; }
+
     [SerializeField]
     private Transform buildingPanel = null;
     [SerializeField]
@@ -11,6 +13,14 @@ public class BuildingListUI : MonoBehaviour
     private List<Building> buildings = null;
     [HideInInspector]
     public List<BuildingNodeUI> buildingNodes = new List<BuildingNodeUI>();
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+            Destroy(gameObject);
+        else
+            Instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +36,22 @@ public class BuildingListUI : MonoBehaviour
             BuildingNodeUI buildingNodeObj = Instantiate(buildingNodePrefab, buildingPanel);
             buildingNodes.Add(buildingNodeObj);
             buildingNodeObj.Initialize(buildings[i]);
+        }
+    }
+
+    public void LockAllBuildingButtons()
+    {
+        foreach(BuildingNodeUI node in buildingNodes)
+        {
+            node.buildButton.interactable = false;
+        }
+    }
+
+    public void UnlockAllBuildingButtons()
+    {
+        foreach (BuildingNodeUI node in buildingNodes)
+        {
+            node.buildButton.interactable = true;
         }
     }
 }

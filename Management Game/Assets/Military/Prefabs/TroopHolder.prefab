@@ -213,6 +213,7 @@ MonoBehaviour:
     troopType: 0
     availabilityState: 0
     troopName: 
+    troopSprite: {fileID: 0}
     troopRequirement:
       building:
         buildingName: 
@@ -228,7 +229,7 @@ MonoBehaviour:
     resourceCosts: []
     trainedTime: 0
     requiredTrainTime: 0
-  troopImg: {fileID: 4793280791734287033}
+  troopImg: {fileID: 5587187666360117110}
   trainButton: {fileID: 4793280790803830190}
   troopNameText: {fileID: 4793280790266512444}
   haveTrainedAmountText: {fileID: 4793280791343256289}
@@ -1269,7 +1270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4793280791734287034}
   - component: {fileID: 4793280791734287032}
-  - component: {fileID: 4793280791734287033}
+  - component: {fileID: 5587187666360117110}
   m_Layer: 5
   m_Name: TroopImage
   m_TagString: Untagged
@@ -1304,7 +1305,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4793280791734287035}
   m_CullTransparentMesh: 0
---- !u!114 &4793280791734287033
+--- !u!114 &5587187666360117110
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

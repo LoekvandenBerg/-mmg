@@ -19,6 +19,7 @@ public class TechNodeUI : MonoBehaviour, IPointerEnterHandler,IPointerExitHandle
     private TechNodeConnector connector = null;
     [SerializeField]
     private Outline outline = null;
+    public Button researchButton;
 
     [Header("Timer")]
     [SerializeField]
@@ -41,7 +42,7 @@ public class TechNodeUI : MonoBehaviour, IPointerEnterHandler,IPointerExitHandle
             nodeImg.color = Color.grey;
             GameEvents.OnTechUnlocked += UnlockedTechnology;
         }
-        GetComponent<Button>().onClick.AddListener(TryResearching);
+        GetComponentInChildren<Button>().onClick.AddListener(TryResearching);
     }
 
     public void TryResearching()
@@ -52,7 +53,7 @@ public class TechNodeUI : MonoBehaviour, IPointerEnterHandler,IPointerExitHandle
             nodeImg.color = Color.blue;
 
             StartTimerBar();
-
+            TechTreeUI.Instance.LockAllTechButtons();
             GameEvents.OnTechResearchCompleted += CompletedResearch;
         }
     }
@@ -70,8 +71,8 @@ public class TechNodeUI : MonoBehaviour, IPointerEnterHandler,IPointerExitHandle
     public void CompletedResearch(Technology tech)
     {
         nodeImg.color = Color.green;
+        TechTreeUI.Instance.UnlockAllTechButtons();
         GameEvents.OnTechResearchCompleted -= CompletedResearch;
-
     }
 
     public void UnlockedTechnology(Technology tech)

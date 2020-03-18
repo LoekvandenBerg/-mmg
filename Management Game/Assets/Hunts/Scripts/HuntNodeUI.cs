@@ -10,8 +10,7 @@ public class HuntNodeUI : MonoBehaviour
     public Hunt hunt;
     [SerializeField]
     private Image huntImg = null;
-    [SerializeField]
-    private Button huntButton = null;
+    public Button huntButton = null;
     [SerializeField]
     private TextMeshProUGUI requiredTroopAmountText = null, huntNameText = null;
     [SerializeField]
@@ -63,7 +62,7 @@ public class HuntNodeUI : MonoBehaviour
             huntButton.interactable = false;
 
             StartTimerBar();
-
+            HuntListUI.Instance.LockAllHuntButtons();
             GameEvents.OnHuntCompleted += CompletedHunt;
         }
     }
@@ -72,6 +71,7 @@ public class HuntNodeUI : MonoBehaviour
     {
         huntReward.GainHuntRewards(rarity);
         huntImg.color = Color.green;
+        HuntListUI.Instance.UnlockAllHuntButtons();
         GameEvents.OnHuntCompleted -= CompletedHunt;
         Destroy(gameObject, 1.5f);
     }

@@ -11,8 +11,7 @@ public class MilitaryNodeUI : MonoBehaviour
     public Troop troop = null;
     [SerializeField]
     private Image troopImg = null;
-    [SerializeField]
-    private Button trainButton = null;
+    public Button trainButton = null;
     [SerializeField]
     private TextMeshProUGUI troopNameText = null, haveTrainedAmountText = null;
     [SerializeField]
@@ -33,6 +32,7 @@ public class MilitaryNodeUI : MonoBehaviour
 
         this.troop = troop;
         troopNameText.text = troop.troopName;
+        troopImg.sprite = troop.troopSprite;
 
         timerBar.fillAmount = 0.0f;
 
@@ -58,7 +58,7 @@ public class MilitaryNodeUI : MonoBehaviour
 
         if (troop.availabilityState == Troop.AvailabilityState.Locked)
         {
-            troopImg.color = Color.grey;
+            //troopImg.color = Color.grey;
             trainButton.interactable = false;
             GameEvents.OnTroopUnlocked += UnlockedTroop;
         }
@@ -68,7 +68,7 @@ public class MilitaryNodeUI : MonoBehaviour
     {
         if (this.troop == troop)
         {
-            troopImg.color = Color.white;
+            //troopImg.color = Color.white;
             trainButton.interactable = true;
             GameEvents.OnTroopUnlocked -= UnlockedTroop;
         }
@@ -82,11 +82,11 @@ public class MilitaryNodeUI : MonoBehaviour
             troop.trainedTime = 0.0f;
             troop.requiredTrainTime *= int.Parse(amountToTrain.text);
 
-            troopImg.color = Color.yellow;
+            //troopImg.color = Color.yellow;
             trainButton.interactable = false;
 
             StartTimerBar();
-
+            MilitaryListUI.Instance.LockAllTrainingButtons();
             GameEvents.OnTrainingCompleted += CompletedTraining;
 
         }
@@ -116,6 +116,7 @@ public class MilitaryNodeUI : MonoBehaviour
                 break;
         }
 
+        MilitaryListUI.Instance.UnlockAllTrainingButtons();
         GameEvents.OnTrainingCompleted -= CompletedTraining;
     }
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 [System.Serializable]
@@ -20,6 +21,7 @@ public class Troop
     public TroopType troopType;
     public AvailabilityState availabilityState;
     public string troopName;
+    public Sprite troopSprite;
     public TroopRequirements troopRequirement;
     public List<ResourceAmount> resourceCosts;
     public float trainedTime;
