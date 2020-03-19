@@ -13,7 +13,8 @@ public class Troop
         Infantry,
         Cavalry,
         Spear,
-        Archer
+        Archer,
+        Magic
     }
 
     public enum AvailabilityState { Locked, Unlocked, Training }

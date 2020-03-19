@@ -16,6 +16,8 @@ public class GameEvents : MonoBehaviour
     public static Action<Building> OnBuildingStarted;
     public static Action<Building> OnBuildingCompleted;
     public static Action<Building> OnBuildingUnlocked;
+    //Hunt quest completion by name
+    public static Action<string, int> OnBuildingCompletedQuestCheck;
 
     public static Action<Troop> OnTrainingStarted;
     public static Action<Troop> OnTrainingCompleted;
@@ -24,6 +26,8 @@ public class GameEvents : MonoBehaviour
     public static Action<Hunt> OnHuntStarted;
     public static Action<Hunt> OnHuntCompleted;
     public static Action<Hunt> OnHuntUnlocked;
+    //Hunt quest completion by name
+    public static Action<string> OnHuntQuestCompleted;
 
     // TECH EVENTS
 
@@ -55,6 +59,10 @@ public class GameEvents : MonoBehaviour
     public static void BuildingUnlocked(Building building)
     {
         OnBuildingUnlocked?.Invoke(building);
+    }
+    public static void BuildingQuestCompleted(string buildingName, int level)
+    {
+        OnBuildingCompletedQuestCheck?.Invoke(buildingName, level);
     }
 
     // MILITARY EVENTS
@@ -88,7 +96,10 @@ public class GameEvents : MonoBehaviour
     {
         OnHuntUnlocked?.Invoke(hunt);
     }
-
+    public static void HuntQuestCompleted(string huntName) 
+    {
+        OnHuntQuestCompleted?.Invoke(huntName);
+    }
 
     //GENERAL EVENTS
 

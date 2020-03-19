@@ -154,7 +154,7 @@ MonoBehaviour:
     buildingTime: 0
     requiredBuildingTime: 5
   - buildingName: Farm
-    buildingState: 1
+    buildingState: 0
     initProductionAmount: 5
     level: 0
     productionModifiers:
@@ -170,7 +170,7 @@ MonoBehaviour:
     buildingTime: 0
     requiredBuildingTime: 5
   - buildingName: Barracks
-    buildingState: 0
+    buildingState: 1
     initProductionAmount: 0
     level: 0
     productionModifiers:
@@ -182,7 +182,7 @@ MonoBehaviour:
     buildingRequirements:
     - buildingName: Mint
       level: 1
-      completed: 0
+      completed: 1
     buildingTime: 0
     requiredBuildingTime: 2
 --- !u!114 &1517678593
@@ -199,8 +199,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   troops:
   - troopType: 0
-    availabilityState: 0
-    troopName: Footmen
+    availabilityState: 1
+    troopName: Axe Warrior
+    troopSprite: {fileID: 21300000, guid: 0ba8ea0f7ed8fa04f8af50f8687bb396, type: 3}
     troopRequirement:
       building:
         buildingName: Barracks
@@ -219,7 +220,76 @@ MonoBehaviour:
     - resourceType: 4
       resourceAmount: 5
     trainedTime: 0
-    requiredTrainTime: 5
+    requiredTrainTime: 1
+  - troopType: 1
+    availabilityState: 1
+    troopName: Mammoth Rider
+    troopSprite: {fileID: 21300000, guid: 34725cade1849704cb46293f922bdf8c, type: 3}
+    troopRequirement:
+      building:
+        buildingName: Barracks
+        buildingState: 0
+        initProductionAmount: 0
+        level: 0
+        productionModifiers: []
+        resourceCosts:
+        - resourceType: 4
+          resourceAmount: 5
+        buildingRequirements: []
+        buildingTime: 0
+        requiredBuildingTime: 0
+      completed: 1
+    resourceCosts:
+    - resourceType: 4
+      resourceAmount: 5
+    trainedTime: 0
+    requiredTrainTime: 1
+  - troopType: 3
+    availabilityState: 1
+    troopName: Blight Archer
+    troopSprite: {fileID: 21300000, guid: 9a3ae9a58ebd189488b32d80f9c8419c, type: 3}
+    troopRequirement:
+      building:
+        buildingName: Barracks
+        buildingState: 0
+        initProductionAmount: 0
+        level: 0
+        productionModifiers: []
+        resourceCosts:
+        - resourceType: 4
+          resourceAmount: 5
+        buildingRequirements: []
+        buildingTime: 0
+        requiredBuildingTime: 0
+      completed: 1
+    resourceCosts:
+    - resourceType: 4
+      resourceAmount: 5
+    trainedTime: 0
+    requiredTrainTime: 1
+  - troopType: 4
+    availabilityState: 1
+    troopName: Shaman
+    troopSprite: {fileID: 21300000, guid: 9571cfe00ea3bc14f8078ec2ba50be60, type: 3}
+    troopRequirement:
+      building:
+        buildingName: Barracks
+        buildingState: 0
+        initProductionAmount: 0
+        level: 0
+        productionModifiers: []
+        resourceCosts:
+        - resourceType: 4
+          resourceAmount: 5
+        buildingRequirements: []
+        buildingTime: 0
+        requiredBuildingTime: 0
+      completed: 1
+    resourceCosts:
+    - resourceType: 4
+      resourceAmount: 5
+    trainedTime: 0
+    requiredTrainTime: 1
 --- !u!114 &7352645825797540858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,7 +309,7 @@ MonoBehaviour:
     neededArmyAmount: 5
     requiredTroopType: 0
     huntedTime: 0
-    requiredHuntTime: 5
+    requiredHuntTime: 2
     resourcesToLoot:
     - resourceType: 4
       resourceAmount: 0
@@ -264,7 +334,7 @@ MonoBehaviour:
     neededArmyAmount: 10
     requiredTroopType: 0
     huntedTime: 0
-    requiredHuntTime: 10
+    requiredHuntTime: 3
     resourcesToLoot:
     - resourceType: 0
       resourceAmount: 0

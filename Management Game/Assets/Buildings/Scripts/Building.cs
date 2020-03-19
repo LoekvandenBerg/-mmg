@@ -34,6 +34,7 @@ public class Building
     public void Build()
     {
         GameEvents.BuildingCompleted(this);
+        GameEvents.BuildingQuestCompleted(buildingName, level);
         GameEvents.OnTimePassed -= CheckBuildingTime;
         
         buildingState = BuildingState.Unlocked;

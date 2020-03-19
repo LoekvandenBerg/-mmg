@@ -5,7 +5,7 @@ using UnityEngine;
 public class HuntReward : MonoBehaviour
 {
 
-    public void GainHuntRewards(Hunt.Rarity rarity)
+    public void GainHuntRewards(Rarity.RarityType rarity)
     {
         List<ResourceAmount> resourceLootList = CalculateRandomResourceLoot(rarity);
 
@@ -34,7 +34,7 @@ public class HuntReward : MonoBehaviour
         }
     }
 
-    public List<ResourceAmount> CalculateRandomResourceLoot(Hunt.Rarity rarity)
+    public List<ResourceAmount> CalculateRandomResourceLoot(Rarity.RarityType rarity)
     {
         List<ResourceAmount> resourceLootList = new List<ResourceAmount>();
 
@@ -46,35 +46,35 @@ public class HuntReward : MonoBehaviour
 
         switch (rarity)
         {
-            case Hunt.Rarity.Common:
+            case Rarity.RarityType.Common:
                 goldAmount = Random.Range(25, 51);
                 foodAmount = Random.Range(25, 51);
                 steelAmount = Random.Range(25, 51);
                 woodAmount = Random.Range(25, 51);
                 waterAmount = Random.Range(25, 51);
                 break;
-            case Hunt.Rarity.Uncommon:
+            case Rarity.RarityType.Uncommon:
                 goldAmount = Random.Range(50, 101);
                 foodAmount = Random.Range(50, 101);
                 steelAmount = Random.Range(50, 101);
                 woodAmount = Random.Range(50, 101);
                 waterAmount = Random.Range(50, 101);
                 break;
-            case Hunt.Rarity.Rare:
+            case Rarity.RarityType.Rare:
                 goldAmount = Random.Range(100, 151);
                 foodAmount = Random.Range(100, 151);
                 steelAmount = Random.Range(100, 151);
                 woodAmount = Random.Range(100, 151);
                 waterAmount = Random.Range(100, 151);
                 break;
-            case Hunt.Rarity.Epic:
+            case Rarity.RarityType.Epic:
                 goldAmount = Random.Range(150, 201);
                 foodAmount = Random.Range(150, 201);
                 steelAmount = Random.Range(150, 201);
                 woodAmount = Random.Range(150, 201);
                 waterAmount = Random.Range(150, 201);
                 break;
-            case Hunt.Rarity.Legendary:
+            case Rarity.RarityType.Legendary:
                 goldAmount = Random.Range(200, 251);
                 foodAmount = Random.Range(200, 251);
                 steelAmount = Random.Range(200, 251);

@@ -15,17 +15,8 @@ public class Hunt
         Completed
     }
 
-    public enum Rarity
-    {
-        Common,
-        Uncommon,
-        Rare,
-        Epic,
-        Legendary
-    }
-
     public AvailabilityState availabilityState;
-    public Rarity rarity;
+    public Rarity.RarityType rarity;
     public string huntName;
     public int neededArmyAmount;
     public Troop.TroopType requiredTroopType;
@@ -56,6 +47,7 @@ public class Hunt
     public void HuntComplete()
     {
         GameEvents.HuntCompleted(this);
+        GameEvents.HuntQuestCompleted(huntName);
         GameEvents.OnTimePassed -= CheckHuntingTime;
 
         availabilityState = AvailabilityState.Completed;
@@ -109,6 +101,10 @@ public class Hunt
                 break;
             case Troop.TroopType.Archer:
                 if (MilitaryManager.Instance.archerAmount >= neededArmyAmount)
+                    canHunt = true;
+                break;
+            case Troop.TroopType.Magic:
+                if (MilitaryManager.Instance.mageAmount >= neededArmyAmount)
                     canHunt = true;
                 break;
             default:

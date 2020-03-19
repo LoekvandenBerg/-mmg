@@ -13,9 +13,8 @@ public class HuntNodeUI : MonoBehaviour
     public Button huntButton = null;
     [SerializeField]
     private TextMeshProUGUI requiredTroopAmountText = null, huntNameText = null;
-    [SerializeField]
     private HuntReward huntReward;
-    private Hunt.Rarity rarity;
+    private Rarity.RarityType rarity;
 
     [Header("Timer")]
     [SerializeField]

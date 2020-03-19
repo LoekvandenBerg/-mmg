@@ -33,6 +33,7 @@ public class MilitaryNodeUI : MonoBehaviour
         this.troop = troop;
         troopNameText.text = troop.troopName;
         troopImg.sprite = troop.troopSprite;
+        troopImg.preserveAspect = true;
 
         timerBar.fillAmount = 0.0f;
 
@@ -51,6 +52,9 @@ public class MilitaryNodeUI : MonoBehaviour
                 break;
             case Troop.TroopType.Archer:
                 haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.archerAmount;
+                break;
+            case Troop.TroopType.Magic:
+                haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.mageAmount;
                 break;
             default:
                 break;
@@ -111,6 +115,10 @@ public class MilitaryNodeUI : MonoBehaviour
             case Troop.TroopType.Archer:
                 MilitaryManager.Instance.archerAmount += amountTraining;
                 haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.archerAmount.ToString();
+                break;
+            case Troop.TroopType.Magic:
+                MilitaryManager.Instance.archerAmount += amountTraining;
+                haveTrainedAmountText.text = "Trained: " + MilitaryManager.Instance.mageAmount.ToString();
                 break;
             default:
                 break;

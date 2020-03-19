@@ -6,7 +6,7 @@ public class MilitaryManager : MonoBehaviour
 {
     public static MilitaryManager Instance { get; private set; }
 
-    public int infantryAmount, cavalryAmount, spearAmount, archerAmount;
+    public int infantryAmount, cavalryAmount, spearAmount, archerAmount, mageAmount;
 
     private void Awake()
     {
