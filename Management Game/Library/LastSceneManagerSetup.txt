@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/HumanScene.unity
+- path: Assets/Scenes/OrcScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
