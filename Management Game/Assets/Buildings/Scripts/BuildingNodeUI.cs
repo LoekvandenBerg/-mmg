@@ -77,12 +77,12 @@ public class BuildingNodeUI : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        BuildingToolTip.Instance.Show(this.building);
+        TroopToolTip.Instance.Show(this.building);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        BuildingToolTip.Instance.Hide();
+        TroopToolTip.Instance.Hide();
     }
 
     void StartTimerBar()

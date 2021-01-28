@@ -23,7 +23,7 @@ public class Hunt
     public float huntedTime;
     public float requiredHuntTime;
     public List<ResourceAmount> resourcesToLoot;
-    public HuntRequirements huntRequirement;
+    public HuntRequirement huntRequirement;
 
     //public Loot[] loot;
 
@@ -117,7 +117,7 @@ public class Hunt
     }
 }
 [Serializable]
-public class HuntRequirements
+public class HuntRequirement
 {
     public Technology technology;
     public bool completed;

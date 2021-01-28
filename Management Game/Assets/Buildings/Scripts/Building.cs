@@ -17,9 +17,9 @@ public class Building
     public BuildingState buildingState;
     public int initProductionAmount;
     public int level;
-    public List<ProductionModifiers> productionModifiers;
-    public List<ResourceAmount> resourceCosts;
-    public List<BuildingRequirements> buildingRequirements;
+    public List<ProductionModifiers> productionModifiers = new List<ProductionModifiers>();
+    public List<ResourceAmount> resourceCosts = new List<ResourceAmount>();
+    public List<BuildingRequirements> buildingRequirements = new List<BuildingRequirements>();
     public float buildingTime;
     public float requiredBuildingTime;
 
@@ -66,7 +66,7 @@ public class Building
     {
             if (buildingState == BuildingState.Locked)
             {
-                BuildingRequirements requirements = buildingRequirements.FirstOrDefault(br => br.buildingName == completedBuilding.buildingName && br.level == completedBuilding.level);
+                BuildingRequirements requirements = buildingRequirements.FirstOrDefault(br => br != null && br.buildingName == completedBuilding.buildingName && br.level == completedBuilding.level);
                 if (requirements != null && !requirements.completed)
                 {
                     requirements.completed = true;

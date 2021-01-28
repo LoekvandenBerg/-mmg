@@ -4,9 +4,9 @@ using System.Linq;
 using UnityEngine;
 using TMPro;
 
-public class BuildingToolTip : MonoBehaviour
+public class TroopToolTip : MonoBehaviour
 {
-    public static BuildingToolTip Instance { get; private set; }
+    public static TroopToolTip Instance { get; private set; }
     [SerializeField]
     private TextMeshProUGUI buildingCostText = null, buildingDescriptionText = null, buildingProductionText = null, requirementText = null;
 

@@ -23,8 +23,8 @@ public class Troop
     public AvailabilityState availabilityState;
     public string troopName;
     public Sprite troopSprite;
-    public TroopRequirements troopRequirement;
-    public List<ResourceAmount> resourceCosts;
+    public TroopRequirement troopRequirement;
+    public List<ResourceAmount> resourceCosts = new List<ResourceAmount>();
     public float trainedTime;
     public float requiredTrainTime;
 
@@ -110,7 +110,7 @@ public class Troop
 }
 
 [System.Serializable]
-public class TroopRequirements
+public class TroopRequirement
 {
     public Building building;
     public bool completed;
